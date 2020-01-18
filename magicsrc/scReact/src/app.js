@@ -1,13 +1,6 @@
 //
 import React from 'react';
-import { View, Text, Button, ScrollView, Panel } from 'magic-script-components';
-
-
-const aShape = {
-  size: [0.4, 0.4],
-  offset: [0, 0, 0],
-  roundness: 0.2
-};
+import { View, Text, Button, Panel } from 'magic-script-components';
 
 export default class MyApp extends React.Component {
   constructor (props) {
@@ -30,16 +23,39 @@ export default class MyApp extends React.Component {
   }
 
   renderSurfacesMenu = () => {
-    return  <View>
-      <Text>Surfaces</Text>
-      <ScrollView>
-        {this.state.surfaces.map((s, i) => {
-          return <Text>
-            {`Surface ${i}`}
-          </Text>
-        })}
-      </ScrollView>
-    </View>
+      const aShape = {
+        size: [0.4, 0.4],
+        offset: [0, 0, 0],
+        roundness: 0.2
+      };
+      return <Panel
+        localPosition={[0, 0.25, 0]}
+        panelShape={aShape}
+        // cursorTransitionType="closest-edge"
+        cursorVisible={true}
+        edgeConstraint={{
+          side: 'left',
+          constraintMagnitude: 1
+        }}
+        edgeConstraintLevel={{
+          side: 'left',
+          level: 'light'
+        }}
+        cursorInitialPosition={[0, 0, 0]}
+      > 
+        {/* <Text textSize={0.1}>Surfaces</Text>
+        <ScrollView>
+          {this.state.surfaces.map((s, i) => {
+            return <Text>
+              {`Surface ${i}`}
+            </Text>
+          })}
+        </ScrollView> */}
+    </Panel>
+  }
+
+  getFirstPoint = () => {
+
   }
 
   beginAddingSurface = () => {
@@ -65,7 +81,7 @@ export default class MyApp extends React.Component {
 
   renderGuidedSurfaceExperience = () => {
     return <View>
-      <Text>please?</Text>
+      <Text>Select top left corner</Text>
     </View>
   }
 

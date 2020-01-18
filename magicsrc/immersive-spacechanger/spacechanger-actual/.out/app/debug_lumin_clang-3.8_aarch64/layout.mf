@@ -1,0 +1,126 @@
+[
+ {
+  "dest": "bin/index.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/index.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/assert.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/assert.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/bintools.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/bintools.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/codec-wrap.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/codec-wrap.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/console.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/console.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/crypto.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/crypto.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/evented.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/evented.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/fetch.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/fetch.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/fs-uv.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/fs-uv.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/fs.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/fs.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/headers.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/headers.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/http-codec.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/http-codec.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/localStorage.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/localStorage.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/mime.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/mime.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/node/process.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/node/process.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/polyfills.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/polyfills.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/pretty-print.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/pretty-print.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/resolve.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/resolve.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/sha1.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/sha1.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/socket-wrap.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/socket-wrap.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/tcp.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/tcp.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/text-encoder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/text-encoder.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/timers.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/timers.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/tls-wrap.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/tls-wrap.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/utils.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/utils.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/websocket-codec.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/websocket-codec.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/websocket.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/websocket.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-polyfills/src/xhr.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/node_modules/magic-script-polyfills/src/xhr.js"
+ },
+ {
+  "dest": "bin/src/app.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/src/app.js"
+ },
+ {
+  "dest": "bin/src/main.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/src/main.js"
+ },
+ {
+  "dest": "bin/src/makeButton.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/immersive-spacechanger/spacechanger-actual/bin/src/makeButton.js"
+ }
+]

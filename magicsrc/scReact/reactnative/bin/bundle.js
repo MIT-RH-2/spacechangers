@@ -1,112 +1,138 @@
-var _ = (function (React) {
-  'use strict';
+var _ = (function (React, lumin) {
+    'use strict';
 
-  React = React && React.hasOwnProperty('default') ? React['default'] : React;
+    React = React && React.hasOwnProperty('default') ? React['default'] : React;
 
-  function _defineProperty(obj, key, value) {
-    if (key in obj) {
-      Object.defineProperty(obj, key, {
-        value: value,
-        enumerable: true,
-        configurable: true,
-        writable: true
-      });
-    } else {
-      obj[key] = value;
+    //
+    // export class MyApp extends React.Component {
+    //   constructor (props) {
+    //     super(props);
+    //     this.state = {
+    //       message: props.message,
+    //       surfaces: ['qq'],
+    //       addingNewSurface: false
+    //     };
+    //     let prismApp = new App()
+    //     this.prism = prismApp.prism
+    //     // let prismplease = new LandscapeApp()
+    //     // this.prism = prismplease.requestNewPrism([10, 10, 10]);
+    //     // this.prism.setPrismController(new Controller());
+    //   }
+    //   componentDidMount () {
+    //   }
+    //   addSurface = (points) => {
+    //     let stateCopy = this.state.surfaces.concat([])
+    //     stateCopy.push(points)
+    //     this.setState({
+    //       surfaces: stateCopy
+    //     })
+    //   }
+    //   renderSurfacesMenu = () => {
+    //       const aShape = {
+    //         size: [0.4, 0.4],
+    //         offset: [0, 0, 0],
+    //         roundness: 0.2
+    //       };
+    //       return <Panel
+    //         localPosition={[0, 0.25, 0]}
+    //         panelShape={aShape}
+    //         // cursorTransitionType="closest-edge"
+    //         cursorVisible={true}
+    //         edgeConstraint={{
+    //           side: 'left',
+    //           constraintMagnitude: 1
+    //         }}
+    //         edgeConstraintLevel={{
+    //           side: 'left',
+    //           level: 'light'
+    //         }}
+    //         cursorInitialPosition={[0, 0, 0]}
+    //       > 
+    //         {/* <Text textSize={0.1}>Surfaces</Text>
+    //         <ScrollView>
+    //           {this.state.surfaces.map((s, i) => {
+    //             return <Text>
+    //               {`Surface ${i}`}
+    //             </Text>
+    //           })}
+    //         </ScrollView> */}
+    //     </Panel>
+    //   }
+    //   beginAddingSurface = () => {
+    //     this.setState({
+    //       addingNewSurface: true,
+    //       newSurfacePoints: {
+    //         topLeft: null,
+    //         topRight: null,
+    //         bottomLeft: null,
+    //         bottomRight: null
+    //       }
+    //     })
+    //   }
+    //   addSurfacePoint = (hitPosition, cornerName) => {
+    //     this.setState({
+    //       newSurfacePoints: {
+    //         ...this.state.newSurfacePoints,
+    //         [cornerName]: hitPosition
+    //       }
+    //     })
+    //   }
+    //   renderGuidedSurfaceExperience = () => {
+    //     return <View>
+    //       <Text>Select top left corner</Text>
+    //     </View>
+    //   }
+    //   renderMenus = () => {
+    //     return <View>
+    //       <Text textSize={0.1} localPosition={[-0.3, 0, 0]}>
+    //         Space Changer
+    //       </Text>
+    //       {this.renderSurfacesMenu()}
+    //       <Button
+    //         height={0.1}
+    //         localPosition={[0.4, -0.2, 0]}
+    //         onClick={this.beginAddingSurface}
+    //         roundness={0.7}
+    //         textSize={0.03}
+    //         width={0.3}
+    //       >
+    //         Add New Surface
+    //       </Button>
+    //     </View>
+    //   }
+    //   render () {
+    //     return (
+    //       <View name="main-view" viewMode={'full-area'}>
+    //         {
+    //           this.state.addingNewSurface
+    //           ? this.renderGuidedSurfaceExperience()
+    //           : this.renderMenus()
+    //         }
+    //       </View>
+    //     );
+    //   }
+    // }
+
+    class App extends lumin.LandscapeApp {
+      onAppStart() {
+        // Create a new prism that's half a meter cubed.
+        this.prism = this.requestNewPrism([0.5, 0.5, 0.5]); // Set a custom prism controller to handle the rest.
+
+        this.prism.setPrismController(new Controller());
+      }
+
     }
 
-    return obj;
-  }
-
-  function Button(props) {
-    // return (<button {...props} />);
-    return React.createElement('button', props);
-  }
-  function Text(props) {
-    // return (<text {...props} />);
-    return React.createElement('text', props);
-  }
-  function View(props) {
-    // return (<view {...props} />);
-    return React.createElement('view', props);
-  }
-  function ScrollView(props) {
-    // return (<scrollView {...props} />);
-    return React.createElement('scrollView', props);
-  }
-
-  class MyApp extends React.Component {
-    constructor(props) {
-      super(props);
-
-      _defineProperty(this, "addSurface", points => {
-        let stateCopy = this.state.surfaces.concat([]);
-        stateCopy.push(points);
-        this.setState({
-          surfaces: stateCopy
-        });
-      });
-
-      _defineProperty(this, "renderSurfacesMenu", () => {
-        return React.createElement(View, null, React.createElement(Text, null, "Surfaces"), React.createElement(ScrollView, null, this.state.surfaces.map((s, i) => {
-          return React.createElement(Text, null, `Surface ${i}`);
-        })));
-      });
-
-      _defineProperty(this, "beginAddingSurface", () => {
-        this.setState({
-          addingNewSurface: true,
-          newSurfacePoints: {
-            topLeft: null,
-            topRight: null,
-            bottomLeft: null,
-            bottomRight: null
-          }
-        });
-      });
-
-      _defineProperty(this, "addSurfacePoint", (hitPosition, cornerName) => {
-        this.setState({
-          newSurfacePoints: { ...this.state.newSurfacePoints,
-            [cornerName]: hitPosition
-          }
-        });
-      });
-
-      _defineProperty(this, "renderGuidedSurfaceExperience", () => {
-        return React.createElement(View, null, React.createElement(Text, null, "please?"));
-      });
-
-      _defineProperty(this, "renderMenus", () => {
-        return React.createElement(View, null, React.createElement(Text, {
-          textSize: 0.1,
-          localPosition: [-0.3, 0, 0]
-        }, "Space Changer"), this.renderSurfacesMenu(), React.createElement(Button, {
-          height: 0.1,
-          localPosition: [0.4, -0.2, 0],
-          onClick: this.beginAddingSurface,
-          roundness: 0.7,
-          textSize: 0.03,
-          width: 0.3
-        }, "Add New Surface"));
-      });
-
-      this.state = {
-        message: props.message,
-        surfaces: ['qq'],
-        addingNewSurface: false
-      };
+    class Controller extends lumin.PrismController {// onAttachPrism() {
+      // let prism = this.getPrism();
+      // Load a model file into a node.
+      // let id = prism.createModelResourceId("res/Leaper.glb", 0.3);
+      // let model = prism.createModelNode(id);
+      // Attach the model to the scene graph so it renders.
+      // this.getRoot().addChild(model);
+      // }
     }
 
-    render() {
-      return React.createElement(View, {
-        name: "main-view",
-        viewMode: 'full-area'
-      }, this.state.addingNewSurface ? this.renderGuidedSurfaceExperience() : this.renderMenus());
-    }
+    return App;
 
-  }
-
-  return MyApp;
-
-}(React));
+}(React, lumin));
