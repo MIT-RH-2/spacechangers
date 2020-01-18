@@ -90,7 +90,7 @@ export default class MyApp extends React.Component {
 
   render () {
     return (
-      <View name="main-view">
+      <View name="main-view" viewMode={'full-area'}>
         {
           this.state.addingNewSurface
           ? this.renderGuidedSurfaceExperience()

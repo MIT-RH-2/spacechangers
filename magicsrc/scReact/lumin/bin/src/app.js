@@ -67,7 +67,8 @@ class MyApp extends React.Component {
 
   render() {
     return React.createElement(View, {
-      name: "main-view"
+      name: "main-view",
+      viewMode: 'full-area'
     }, this.state.addingNewSurface ? this.renderGuidedSurfaceExperience() : this.renderMenus());
   }
 
