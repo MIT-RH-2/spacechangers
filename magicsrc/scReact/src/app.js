@@ -1,6 +1,13 @@
 //
 import React from 'react';
-import { View, Text, Button, ScrollView, Quad } from 'magic-script-components';
+import { View, Text, Button, ScrollView, Panel } from 'magic-script-components';
+
+
+const aShape = {
+  size: [0.4, 0.4],
+  offset: [0, 0, 0],
+  roundness: 0.2
+};
 
 export default class MyApp extends React.Component {
   constructor (props) {
@@ -23,7 +30,12 @@ export default class MyApp extends React.Component {
   }
 
   renderSurfacesMenu = () => {
-    return <View localPosition={[-1, -0.2, 0]}>
+    return  <Panel
+      localPosition={[-1, 0.4, 0]}
+      panelShape={aShape}
+      cursorTransitionType="closest-edge"
+      cursorVisible={true}
+    >
       <Text>Surfaces</Text>
       <ScrollView>
         {this.state.surfaces.map((s, i) => {
@@ -32,7 +44,7 @@ export default class MyApp extends React.Component {
           </Text>
         })}
       </ScrollView>
-    </View>
+    </Panel>
   }
 
   beginAddingSurface = () => {

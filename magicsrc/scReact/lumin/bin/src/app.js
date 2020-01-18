@@ -1,7 +1,12 @@
 import { defineProperty as _defineProperty } from '../_virtual/_rollupPluginBabelHelpers.js';
 import React from '../node_modules/react/index.js';
-import { View, Text, ScrollView, Button } from '../node_modules/magic-script-components/src/components.js';
+import { View, Panel, Text, ScrollView, Button } from '../node_modules/magic-script-components/src/components.js';
 
+const aShape = {
+  size: [0.4, 0.4],
+  offset: [0, 0, 0],
+  roundness: 0.2
+};
 class MyApp extends React.Component {
   constructor(props) {
     super(props);
@@ -15,8 +20,11 @@ class MyApp extends React.Component {
     });
 
     _defineProperty(this, "renderSurfacesMenu", () => {
-      return React.createElement(View, {
-        localPosition: [-1, -0.2, 0]
+      return React.createElement(Panel, {
+        localPosition: [-1, 0.4, 0],
+        panelShape: aShape,
+        cursorTransitionType: "closest-edge",
+        cursorVisible: true
       }, React.createElement(Text, null, "Surfaces"), React.createElement(ScrollView, null, this.state.surfaces.map((s, i) => {
         return React.createElement(Text, null, `Surface ${i}`);
       })));
