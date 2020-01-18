@@ -1,0 +1,830 @@
+[
+ {
+  "dest": "bin/_virtual/ReactPropTypesSecret.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/ReactPropTypesSecret.js"
+ },
+ {
+  "dest": "bin/_virtual/ReactPropTypesSecret2.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/ReactPropTypesSecret2.js"
+ },
+ {
+  "dest": "bin/_virtual/_commonjsHelpers.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/_commonjsHelpers.js"
+ },
+ {
+  "dest": "bin/_virtual/_rollupPluginBabelHelpers.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/_rollupPluginBabelHelpers.js"
+ },
+ {
+  "dest": "bin/_virtual/checkPropTypes.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/checkPropTypes.js"
+ },
+ {
+  "dest": "bin/_virtual/checkPropTypes2.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/checkPropTypes2.js"
+ },
+ {
+  "dest": "bin/_virtual/index.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/index.js"
+ },
+ {
+  "dest": "bin/_virtual/index2.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/index2.js"
+ },
+ {
+  "dest": "bin/_virtual/index3.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/index3.js"
+ },
+ {
+  "dest": "bin/_virtual/index4.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/index4.js"
+ },
+ {
+  "dest": "bin/_virtual/react-reconciler.development.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/react-reconciler.development.js"
+ },
+ {
+  "dest": "bin/_virtual/react-reconciler.production.min.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/react-reconciler.production.min.js"
+ },
+ {
+  "dest": "bin/_virtual/react.development.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/react.development.js"
+ },
+ {
+  "dest": "bin/_virtual/react.development2.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/react.development2.js"
+ },
+ {
+  "dest": "bin/_virtual/react.production.min.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/react.production.min.js"
+ },
+ {
+  "dest": "bin/_virtual/react.production.min2.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/react.production.min2.js"
+ },
+ {
+  "dest": "bin/_virtual/scheduler-tracing.development.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/scheduler-tracing.development.js"
+ },
+ {
+  "dest": "bin/_virtual/scheduler-tracing.production.min.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/scheduler-tracing.production.min.js"
+ },
+ {
+  "dest": "bin/_virtual/scheduler.development.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/scheduler.development.js"
+ },
+ {
+  "dest": "bin/_virtual/scheduler.production.min.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/scheduler.production.min.js"
+ },
+ {
+  "dest": "bin/_virtual/tracing.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/tracing.js"
+ },
+ {
+  "dest": "bin/index.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/index.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/index.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/index.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/configuration.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/configuration.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/core/native-factory.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/core/native-factory.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/component-mapping.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/component-mapping.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/controllers/app-prism-controller.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/controllers/app-prism-controller.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/controllers/builders/controller-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/controllers/builders/controller-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/controllers/mxs-prism-controller.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/controllers/mxs-prism-controller.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/audio-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/audio-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/button-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/button-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/circle-confirmation-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/circle-confirmation-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/color-picker-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/color-picker-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/date-picker-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/date-picker-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dialog-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dialog-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dropdown-list-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dropdown-list-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dropdown-list-item-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dropdown-list-item-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/element-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/element-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/grid-layout-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/grid-layout-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/group-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/group-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/image-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/image-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/layout-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/layout-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/light-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/light-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/line-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/line-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/linear-layout-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/linear-layout-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/list-view-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/list-view-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/list-view-item-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/list-view-item-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/loading-spinner-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/loading-spinner-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/model-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/model-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/page-view-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/page-view-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/panel-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/panel-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/portal-icon-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/portal-icon-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/positional-layout-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/positional-layout-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/progress-bar-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/progress-bar-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/quad-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/quad-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/rect-layout-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/rect-layout-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/render-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/render-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/scroll-bar-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/scroll-bar-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/scroll-view-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/scroll-view-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/slider-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/slider-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/tab-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/tab-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-container-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-container-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-edit-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-edit-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/time-picker-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/time-picker-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/toggle-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/toggle-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/toggle-group-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/toggle-group-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/transform-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/transform-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/ui-node-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/ui-node-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/video-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/video-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/web-view-builder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/web-view-builder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/mxs-list-view-item.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/mxs-list-view-item.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/mxs-panel.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/mxs-panel.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/mxs-scroll-bar.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/mxs-scroll-bar.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/array-property.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/array-property.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/class-property.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/class-property.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/enum-property.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/enum-property.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/primitive-type-property.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/primitive-type-property.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/property-descriptor.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/property-descriptor.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/text-children-property.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/text-children-property.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/mxs-landscape-app.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/mxs-landscape-app.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/platform-factory.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/platform-factory.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/advance-direction.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/advance-direction.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/alignment.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/alignment.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/audio-action.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/audio-action.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/cursor-edge-scroll-mode.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/cursor-edge-scroll-mode.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/cursor-hover-state.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/cursor-hover-state.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/date-format.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/date-format.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/dialog-layout.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/dialog-layout.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/dialog-type.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/dialog-type.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/eclipse-button-type.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/eclipse-button-type.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/eclipse-label-type.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/eclipse-label-type.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/control-pose-3dof-Input-event-data.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/control-pose-3dof-Input-event-data.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/control-pose-6dof-input-event-data.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/control-pose-6dof-input-event-data.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/control-touch-pad-input-event-data.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/control-touch-pad-input-event-data.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/drop-down-list-event-data.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/drop-down-list-event-data.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/event-data.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/event-data.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/eye-tracking-event-data.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/eye-tracking-event-data.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/gesture-input-event-data.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/gesture-input-event-data.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/input-event-data.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/input-event-data.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/key-input-event-data.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/key-input-event-data.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/node-event-data.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/node-event-data.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/prism-event-data.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/prism-event-data.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/progress-bar-event-data.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/progress-bar-event-data.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/ray-cast-event-data.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/ray-cast-event-data.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/scroll-view-event-data.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/scroll-view-event-data.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/selection-event-data.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/selection-event-data.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/server-event.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/server-event.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/slider-event-data.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/slider-event-data.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/text-edit-event-data.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/text-edit-event-data.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/toggle-event-data.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/toggle-event-data.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/transform-node-event-data.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/transform-node-event-data.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/ui-event-data.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/ui-event-data.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/video-event-data.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/video-event-data.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-source.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-source.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-type.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-type.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/flow-direction.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/flow-direction.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/focus-request.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/focus-request.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/font-style.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/font-style.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/gesture-direction.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/gesture-direction.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/gesture-type.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/gesture-type.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/gravity-well-snap.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/gravity-well-snap.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/hand-gesture-keypoint-name.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/hand-gesture-keypoint-name.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/horizontal-text-alignment.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/horizontal-text-alignment.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/key-codes.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/key-codes.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/label-display-mode.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/label-display-mode.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/light-type.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/light-type.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/loading-spinner-type.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/loading-spinner-type.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/orientation.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/orientation.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/panel-cursor-transition-type.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/panel-cursor-transition-type.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/panel-edge-constraint-level.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/panel-edge-constraint-level.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/portal-icon-size.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/portal-icon-size.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/quality.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/quality.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/ray-cast-event-type.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/ray-cast-event-type.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/rendering-layer.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/rendering-layer.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/scroll-bar-visibility.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/scroll-bar-visibility.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/scroll-direction.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/scroll-direction.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/selection-event-type.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/selection-event-type.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/shader-type.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/shader-type.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/side.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/side.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/sound-event.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/sound-event.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/system-icons.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/system-icons.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/text-entry-mode.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/text-entry-mode.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/texture-type.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/texture-type.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/time-format.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/time-format.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/time-period.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/time-period.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/toggle-type.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/toggle-type.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/ui-node-events.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/ui-node-events.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/video-action.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/video-action.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/video-event-type.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/video-event-type.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/view-mode.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/view-mode.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/utilities/extractor.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/utilities/extractor.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/utilities/validator.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/utilities/validator.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/react-magic-script/magic-script-renderer.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/react-magic-script/magic-script-renderer.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-components-lumin/src/react-magic-script/react-magic-script.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/react-magic-script/react-magic-script.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/assert.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/assert.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/bintools.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/bintools.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/codec-wrap.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/codec-wrap.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/console.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/console.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/crypto.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/crypto.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/evented.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/evented.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/fetch.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/fetch.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/fs-uv.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/fs-uv.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/fs.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/fs.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/headers.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/headers.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/http-codec.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/http-codec.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/localStorage.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/localStorage.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/mime.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/mime.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/node/process.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/node/process.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/polyfills.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/polyfills.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/pretty-print.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/pretty-print.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/resolve.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/resolve.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/sha1.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/sha1.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/socket-wrap.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/socket-wrap.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/tcp.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/tcp.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/text-encoder.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/text-encoder.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/timers.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/timers.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/tls-wrap.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/tls-wrap.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/utils.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/utils.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/websocket-codec.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/websocket-codec.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/websocket.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/websocket.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/magic-script-polyfills/src/xhr.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/xhr.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/object-assign/index.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/object-assign/index.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/prop-types/checkPropTypes.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/prop-types/checkPropTypes.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/prop-types/lib/ReactPropTypesSecret.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/prop-types/lib/ReactPropTypesSecret.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/react-reconciler/cjs/react-reconciler.development.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/react-reconciler/cjs/react-reconciler.development.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/react-reconciler/cjs/react-reconciler.production.min.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/react-reconciler/cjs/react-reconciler.production.min.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/react-reconciler/index.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/react-reconciler/index.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/react/cjs/react.development.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/react/cjs/react.development.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/react/cjs/react.production.min.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/react/cjs/react.production.min.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/react/index.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/react/index.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/scheduler/cjs/scheduler-tracing.development.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/scheduler/cjs/scheduler-tracing.development.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/scheduler/cjs/scheduler-tracing.production.min.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/scheduler/cjs/scheduler-tracing.production.min.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/scheduler/cjs/scheduler.development.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/scheduler/cjs/scheduler.development.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/scheduler/cjs/scheduler.production.min.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/scheduler/cjs/scheduler.production.min.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/scheduler/index.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/scheduler/index.js"
+ },
+ {
+  "dest": "bin/lumin/node_modules/scheduler/tracing.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/scheduler/tracing.js"
+ },
+ {
+  "dest": "bin/lumin/src/global-scope.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/src/global-scope.js"
+ },
+ {
+  "dest": "bin/lumin/src/main.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/src/main.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-components/src/components.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/node_modules/magic-script-components/src/components.js"
+ },
+ {
+  "dest": "bin/node_modules/object-assign/index.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/node_modules/object-assign/index.js"
+ },
+ {
+  "dest": "bin/node_modules/prop-types/checkPropTypes.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/node_modules/prop-types/checkPropTypes.js"
+ },
+ {
+  "dest": "bin/node_modules/prop-types/lib/ReactPropTypesSecret.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/node_modules/prop-types/lib/ReactPropTypesSecret.js"
+ },
+ {
+  "dest": "bin/node_modules/react/cjs/react.development.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/node_modules/react/cjs/react.development.js"
+ },
+ {
+  "dest": "bin/node_modules/react/cjs/react.production.min.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/node_modules/react/cjs/react.production.min.js"
+ },
+ {
+  "dest": "bin/node_modules/react/index.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/node_modules/react/index.js"
+ },
+ {
+  "dest": "bin/src/app.js",
+  "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/src/app.js"
+ }
+]

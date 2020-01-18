@@ -1,0 +1,1495 @@
+{
+ "entries": [
+  {
+   "compression": 8,
+   "hash": "cf449c5311b652fb144bb91968f91c9dd61cae0b",
+   "pkgpath": "resources/README.md",
+   "size": 44,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/../resources/README.md"
+  },
+  {
+   "compression": 8,
+   "hash": "d674601b4a988fcb9c543f2811f1edb7755111e0",
+   "pkgpath": "bin/_virtual/ReactPropTypesSecret.js",
+   "size": 164,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/ReactPropTypesSecret.js"
+  },
+  {
+   "compression": 8,
+   "hash": "666ed2c9c32893095c876e1a0946451dc51a47a3",
+   "pkgpath": "bin/_virtual/ReactPropTypesSecret2.js",
+   "size": 158,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/ReactPropTypesSecret2.js"
+  },
+  {
+   "compression": 8,
+   "hash": "daf4c1540bb0480e8bc07cc43ff9cd008f320d8a",
+   "pkgpath": "bin/_virtual/_commonjsHelpers.js",
+   "size": 305,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/_commonjsHelpers.js"
+  },
+  {
+   "compression": 8,
+   "hash": "bfd81b49630590fea639dab9968606214a711e5e",
+   "pkgpath": "bin/_virtual/_rollupPluginBabelHelpers.js",
+   "size": 302,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/_rollupPluginBabelHelpers.js"
+  },
+  {
+   "compression": 8,
+   "hash": "1114a64635694e974e22d3de56ab7824937239e1",
+   "pkgpath": "bin/_virtual/checkPropTypes.js",
+   "size": 142,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/checkPropTypes.js"
+  },
+  {
+   "compression": 8,
+   "hash": "06ce115e0c081146d04e17af07d10acc1b1b9581",
+   "pkgpath": "bin/_virtual/checkPropTypes2.js",
+   "size": 136,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/checkPropTypes2.js"
+  },
+  {
+   "compression": 8,
+   "hash": "d1d084d349f88655717b2e863ca8254337041055",
+   "pkgpath": "bin/_virtual/index.js",
+   "size": 128,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/index.js"
+  },
+  {
+   "compression": 8,
+   "hash": "3fa6d147756d2d40946eeaeffa395370c0e8e020",
+   "pkgpath": "bin/_virtual/index2.js",
+   "size": 106,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/index2.js"
+  },
+  {
+   "compression": 8,
+   "hash": "acf42f141e142eae7aad467861e975dfbeab5341",
+   "pkgpath": "bin/_virtual/index3.js",
+   "size": 118,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/index3.js"
+  },
+  {
+   "compression": 8,
+   "hash": "7c7ee5920431022779141448906b40427f2f10bc",
+   "pkgpath": "bin/_virtual/index4.js",
+   "size": 122,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/index4.js"
+  },
+  {
+   "compression": 8,
+   "hash": "b64b1ea374ccefbb20fb5b45f0b3083ec709b322",
+   "pkgpath": "bin/_virtual/react-reconciler.development.js",
+   "size": 188,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/react-reconciler.development.js"
+  },
+  {
+   "compression": 8,
+   "hash": "55bc4a8c7e51a9f9d4891f5e4690bced98cdb046",
+   "pkgpath": "bin/_virtual/react-reconciler.production.min.js",
+   "size": 197,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/react-reconciler.production.min.js"
+  },
+  {
+   "compression": 8,
+   "hash": "1c17149b58ee43ec3646e1ef4f386f51903457c2",
+   "pkgpath": "bin/_virtual/react.development.js",
+   "size": 146,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/react.development.js"
+  },
+  {
+   "compression": 8,
+   "hash": "4be3db615df8514b1465c4f158b38109dee312b9",
+   "pkgpath": "bin/_virtual/react.development2.js",
+   "size": 140,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/react.development2.js"
+  },
+  {
+   "compression": 8,
+   "hash": "a1a4729fb3a9ddbcf58194408713e40bac7f2789",
+   "pkgpath": "bin/_virtual/react.production.min.js",
+   "size": 155,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/react.production.min.js"
+  },
+  {
+   "compression": 8,
+   "hash": "6639d11ace3c594f06735870e42d29c95ee14343",
+   "pkgpath": "bin/_virtual/react.production.min2.js",
+   "size": 149,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/react.production.min2.js"
+  },
+  {
+   "compression": 8,
+   "hash": "e4db34f343a8546ee91e8b4e4bd966626723c0fb",
+   "pkgpath": "bin/_virtual/scheduler-tracing.development.js",
+   "size": 184,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/scheduler-tracing.development.js"
+  },
+  {
+   "compression": 8,
+   "hash": "eb12edb71a7d355f703b018d9d10feab42c3372c",
+   "pkgpath": "bin/_virtual/scheduler-tracing.production.min.js",
+   "size": 193,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/scheduler-tracing.production.min.js"
+  },
+  {
+   "compression": 8,
+   "hash": "da24f7d3a731b01d06cf8e9f5a392528fbf6a0eb",
+   "pkgpath": "bin/_virtual/scheduler.development.js",
+   "size": 162,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/scheduler.development.js"
+  },
+  {
+   "compression": 8,
+   "hash": "a7bf9b4715dfaa02833a6f83acab943723cbf586",
+   "pkgpath": "bin/_virtual/scheduler.production.min.js",
+   "size": 171,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/scheduler.production.min.js"
+  },
+  {
+   "compression": 8,
+   "hash": "0deea30b589c6e95bfeb758b37babe77401b234b",
+   "pkgpath": "bin/_virtual/tracing.js",
+   "size": 116,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/_virtual/tracing.js"
+  },
+  {
+   "compression": 8,
+   "hash": "3c2d008a387ab1fcff1aec1d2fa67ccf320be78e",
+   "pkgpath": "bin/index.js",
+   "size": 55,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/index.js"
+  },
+  {
+   "compression": 8,
+   "hash": "04d0a66c78a5a8c126f42f2661f71c06068773c6",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/index.js",
+   "size": 395,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/index.js"
+  },
+  {
+   "compression": 8,
+   "hash": "e7391d2d1377f9aa639249625ae9377c01c9abbd",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/configuration.js",
+   "size": 359,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/configuration.js"
+  },
+  {
+   "compression": 8,
+   "hash": "6a9e4791c12da6d8114a3869004cc3a2b2a97ff5",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/core/native-factory.js",
+   "size": 463,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/core/native-factory.js"
+  },
+  {
+   "compression": 8,
+   "hash": "e6e65a16dab3432fe6b69b02d08b61d929ba741c",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/component-mapping.js",
+   "size": 4940,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/component-mapping.js"
+  },
+  {
+   "compression": 8,
+   "hash": "3b5b4d6c1cdbefd26deeca1013adf6fad6163c61",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/controllers/app-prism-controller.js",
+   "size": 1596,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/controllers/app-prism-controller.js"
+  },
+  {
+   "compression": 8,
+   "hash": "d00e967a12e820f2837c2c6a84b4f956ece785f0",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/controllers/builders/controller-builder.js",
+   "size": 3096,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/controllers/builders/controller-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "e0091355c5220573ebd4ea0d4a709533116d5b9c",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/controllers/mxs-prism-controller.js",
+   "size": 5414,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/controllers/mxs-prism-controller.js"
+  },
+  {
+   "compression": 8,
+   "hash": "82f5aa13c408aaa12d85b6fa8cdcaba529fb51aa",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/audio-builder.js",
+   "size": 11124,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/audio-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "b5c1b454c50827fd4e1eb59be9898b255f40a998",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/button-builder.js",
+   "size": 5247,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/button-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "d980bd459e673b612b5097e255e635ff925fb62c",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/circle-confirmation-builder.js",
+   "size": 953,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/circle-confirmation-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "e4597a13eef754c83a1a295e242484e3f99479f0",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/color-picker-builder.js",
+   "size": 1240,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/color-picker-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "eb94c391c5bf19108685b330e811d62b98fff943",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/date-picker-builder.js",
+   "size": 3073,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/date-picker-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "cd5b5a5166457fc95f810ba06e77379312c123c0",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dialog-builder.js",
+   "size": 2266,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dialog-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "9f6024233257a0eae5c584d4673945da51b7a773",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dropdown-list-builder.js",
+   "size": 2926,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dropdown-list-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "f901504bba666672d3b1e22084e678c87ab501de",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dropdown-list-item-builder.js",
+   "size": 2652,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dropdown-list-item-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "5ed617e8d63bc2eadece9ecd1d517871ed6d4bef",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/element-builder.js",
+   "size": 2865,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/element-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "4c2b1a825307efb3873489ffa4d01ccb94fae484",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/grid-layout-builder.js",
+   "size": 815,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/grid-layout-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "a6e963d2b329269c560a243ff8afa8e712dbd639",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/group-builder.js",
+   "size": 423,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/group-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "8f6bdf549a566ac23956b8cb914c487b1a23eca0",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/image-builder.js",
+   "size": 4037,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/image-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "e5a329d22b4c7dd98e65415f183cd18a29fb4655",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/layout-builder.js",
+   "size": 1267,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/layout-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "14f7d5201d9d5816976f677c591f6da362f1cc82",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/light-builder.js",
+   "size": 2079,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/light-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "59df63d7db93a43514999b1278b2a22325620c99",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/line-builder.js",
+   "size": 1045,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/line-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "7fd5990e561cb1bd57ff85df4f236a208af5a622",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/linear-layout-builder.js",
+   "size": 775,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/linear-layout-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "4424e18630bdec13de959a7bf071c0766122043c",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/list-view-builder.js",
+   "size": 5303,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/list-view-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "a5f9a18984bf233511036ff40c94879442a8fe84",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/list-view-item-builder.js",
+   "size": 1530,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/list-view-item-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "f9bc2de54545e8225ff8eb0beec30cf4acc6c6e0",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/loading-spinner-builder.js",
+   "size": 2160,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/loading-spinner-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "177fbf6f826c82c380f34dba31f4e450da176e30",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/model-builder.js",
+   "size": 6251,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/model-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "45fe41b6a0d02c9abee7cfe6a9c9185b44aabcf3",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/page-view-builder.js",
+   "size": 3432,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/page-view-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "03e995339a70738f890d664316de9aecdfd1f714",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/panel-builder.js",
+   "size": 4047,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/panel-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "c25be1c70ae93eced3fca62911c60c26b939fe85",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/portal-icon-builder.js",
+   "size": 3040,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/portal-icon-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "bae07f361ff890ccfce973be5bb0cf234de7ad4b",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/positional-layout-builder.js",
+   "size": 1229,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/positional-layout-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "cb8d16b1511b40cdc7dbb38d3962151bc7c1154d",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/progress-bar-builder.js",
+   "size": 2284,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/progress-bar-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "64f22ae90e04a0b86749cb99e038be979b940ae8",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/quad-builder.js",
+   "size": 2833,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/quad-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "afcec9b6dea2e54d1b93c07ddac8e971d923c440",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/rect-layout-builder.js",
+   "size": 938,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/rect-layout-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "7728105a14524e3f7fc9f8bda98778b3f61e8995",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/render-builder.js",
+   "size": 3300,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/render-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "70b30c9694bb3d8133c02fe8f78d5db5455f3709",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/scroll-bar-builder.js",
+   "size": 2259,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/scroll-bar-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "46d67e60658f45eeea5ddef7c1c09552ac97256c",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/scroll-view-builder.js",
+   "size": 2378,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/scroll-view-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "0adeaf3066d31d16954337410e46b830977fd15c",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/slider-builder.js",
+   "size": 1514,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/slider-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "c6af55391b1ebbe8e4759874b8966961225385f6",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/tab-builder.js",
+   "size": 1816,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/tab-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "cf77110c925ef60ed532166fd48e83b74ec3a3ec",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-builder.js",
+   "size": 7498,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "076fa2f8ed26fa4deb8751810908ded30305aab9",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-container-builder.js",
+   "size": 1460,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-container-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "2cc855910613b846583bbb7a09b730a8132dcfe5",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-edit-builder.js",
+   "size": 10165,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-edit-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "bf67e3ede8bbb91f20114cc90bf78e64be164cde",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/time-picker-builder.js",
+   "size": 2574,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/time-picker-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "eb2d87309be9e5a31365b70b8857bcf456f1983b",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/toggle-builder.js",
+   "size": 2032,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/toggle-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "4c17eee344fe3130ce38804a3b80603f8404a249",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/toggle-group-builder.js",
+   "size": 1385,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/toggle-group-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "45756417fc2167d4d7e605a372d37ef420a96bae",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/transform-builder.js",
+   "size": 3808,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/transform-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "05198d1c5ade45afe49187116fa77b8626c37e3e",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/ui-node-builder.js",
+   "size": 4639,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/ui-node-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "ec33c2951bbbf8366e3d35efd0b2002ed5194d91",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/video-builder.js",
+   "size": 3175,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/video-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "3083b003a72be858f08a579d66e93a575482b7a0",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/web-view-builder.js",
+   "size": 1298,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/web-view-builder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "6abbfcef16a2fef75948561ca9a241ef5bc6fd77",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/mxs-list-view-item.js",
+   "size": 553,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/mxs-list-view-item.js"
+  },
+  {
+   "compression": 8,
+   "hash": "d96181306edcb20e89f8349058b3b4436184c2c5",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/mxs-panel.js",
+   "size": 319,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/mxs-panel.js"
+  },
+  {
+   "compression": 8,
+   "hash": "429af1d23fbeb5969388142eac2b7abc9ae36a96",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/mxs-scroll-bar.js",
+   "size": 377,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/mxs-scroll-bar.js"
+  },
+  {
+   "compression": 8,
+   "hash": "18d97e0bdf1e4fb7ac887757ad086046d9c383ed",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/array-property.js",
+   "size": 462,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/array-property.js"
+  },
+  {
+   "compression": 8,
+   "hash": "e1c047e0cad9b68abedcda1fff67350c7c6c10f9",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/class-property.js",
+   "size": 528,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/class-property.js"
+  },
+  {
+   "compression": 8,
+   "hash": "fc9cb38f677f940d6672685880efdd7d020a003d",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/enum-property.js",
+   "size": 694,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/enum-property.js"
+  },
+  {
+   "compression": 8,
+   "hash": "664731dbb4325ffa3c2d9ecbfe7603f4dd02a750",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/primitive-type-property.js",
+   "size": 475,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/primitive-type-property.js"
+  },
+  {
+   "compression": 8,
+   "hash": "40ae09883056a0df7fb403cd3e0da901e7320201",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/property-descriptor.js",
+   "size": 3148,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/property-descriptor.js"
+  },
+  {
+   "compression": 8,
+   "hash": "7d697e9b1d2c36ce5975d2f9532fbd9ad310d39f",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/text-children-property.js",
+   "size": 1006,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/text-children-property.js"
+  },
+  {
+   "compression": 8,
+   "hash": "0269cab4365c8641fe07d8ddd87db648401e6ae4",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/mxs-landscape-app.js",
+   "size": 2116,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/mxs-landscape-app.js"
+  },
+  {
+   "compression": 8,
+   "hash": "b2f44f61c5cb44c085e1b92256b9cb44bbf38d92",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/platform-factory.js",
+   "size": 13076,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/platform-factory.js"
+  },
+  {
+   "compression": 8,
+   "hash": "0dc3ba9101f63ebac5cb6a53014469ed82035210",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/advance-direction.js",
+   "size": 515,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/advance-direction.js"
+  },
+  {
+   "compression": 8,
+   "hash": "6402cd08ae4b8811a2acbd7e861678909896833f",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/alignment.js",
+   "size": 656,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/alignment.js"
+  },
+  {
+   "compression": 8,
+   "hash": "1df92c2ad1af5997686efe0b3eed2143e25a738c",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/audio-action.js",
+   "size": 262,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/audio-action.js"
+  },
+  {
+   "compression": 8,
+   "hash": "8998bf080672dab4422d948ed51fba5faf6ccb8c",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/cursor-edge-scroll-mode.js",
+   "size": 389,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/cursor-edge-scroll-mode.js"
+  },
+  {
+   "compression": 8,
+   "hash": "c25c29adc71e8581faf0d6abb649a5f0da50b2c0",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/cursor-hover-state.js",
+   "size": 1056,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/cursor-hover-state.js"
+  },
+  {
+   "compression": 8,
+   "hash": "5157773fe46a747d12d1141b9e615a665dd926ae",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/date-format.js",
+   "size": 2045,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/date-format.js"
+  },
+  {
+   "compression": 8,
+   "hash": "adb79ee6333ad1e597e194467103df4d8b3538bb",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/dialog-layout.js",
+   "size": 341,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/dialog-layout.js"
+  },
+  {
+   "compression": 8,
+   "hash": "faa1a6881be092d161684771c2734ca7329edcf2",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/dialog-type.js",
+   "size": 465,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/dialog-type.js"
+  },
+  {
+   "compression": 8,
+   "hash": "ec81df4876573c02f8849b8ed030317a83fa33f4",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/eclipse-button-type.js",
+   "size": 481,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/eclipse-button-type.js"
+  },
+  {
+   "compression": 8,
+   "hash": "e35f33426aa65c767810c81d1dceef9de484d1ed",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/eclipse-label-type.js",
+   "size": 804,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/eclipse-label-type.js"
+  },
+  {
+   "compression": 8,
+   "hash": "b03d70b3cbe501014a7b0fa3a035be6d2c308609",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/control-pose-3dof-Input-event-data.js",
+   "size": 1116,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/control-pose-3dof-Input-event-data.js"
+  },
+  {
+   "compression": 8,
+   "hash": "1c4c5b8bc01127d40e80f21ce1a87dfde398f4f0",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/control-pose-6dof-input-event-data.js",
+   "size": 552,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/control-pose-6dof-input-event-data.js"
+  },
+  {
+   "compression": 8,
+   "hash": "c769ddb350c6502a60811795dbe424efc1f20086",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/control-touch-pad-input-event-data.js",
+   "size": 994,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/control-touch-pad-input-event-data.js"
+  },
+  {
+   "compression": 8,
+   "hash": "d0415d5b9bfa5b0bed902b147462e26c3078b7df",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/drop-down-list-event-data.js",
+   "size": 966,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/drop-down-list-event-data.js"
+  },
+  {
+   "compression": 8,
+   "hash": "1842237306b710f3c12cd1e5b42feca588bcd4db",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/event-data.js",
+   "size": 667,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/event-data.js"
+  },
+  {
+   "compression": 8,
+   "hash": "73fec19423e4a384e8f53e2bd7b5e35023c864db",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/eye-tracking-event-data.js",
+   "size": 2537,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/eye-tracking-event-data.js"
+  },
+  {
+   "compression": 8,
+   "hash": "f7e6b252621c5e431abb48a931a8c34ef9d50f0b",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/gesture-input-event-data.js",
+   "size": 3548,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/gesture-input-event-data.js"
+  },
+  {
+   "compression": 8,
+   "hash": "d92675366d5287023179fbf2374f1057a761cd47",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/input-event-data.js",
+   "size": 939,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/input-event-data.js"
+  },
+  {
+   "compression": 8,
+   "hash": "0fc7e386ef5598c4b182d6e772f37217524cff74",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/key-input-event-data.js",
+   "size": 825,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/key-input-event-data.js"
+  },
+  {
+   "compression": 8,
+   "hash": "635a7349f5b58d7687e3965819ef35e9777496c7",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/node-event-data.js",
+   "size": 1494,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/node-event-data.js"
+  },
+  {
+   "compression": 8,
+   "hash": "3e67357ea51def09c1054cec99c22a008a407946",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/prism-event-data.js",
+   "size": 2412,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/prism-event-data.js"
+  },
+  {
+   "compression": 8,
+   "hash": "e7dfff2110ffc48d1796429ba88d374f64203206",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/progress-bar-event-data.js",
+   "size": 525,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/progress-bar-event-data.js"
+  },
+  {
+   "compression": 8,
+   "hash": "cfd21b2bc1c489be12a6884c0ddaeb4440424a6f",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/ray-cast-event-data.js",
+   "size": 832,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/ray-cast-event-data.js"
+  },
+  {
+   "compression": 8,
+   "hash": "1cdd97736d5c49c68cf4f21afe1d0685eca9db9f",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/scroll-view-event-data.js",
+   "size": 640,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/scroll-view-event-data.js"
+  },
+  {
+   "compression": 8,
+   "hash": "42dd509af65ea8c63134289e619a534a0036ace0",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/selection-event-data.js",
+   "size": 759,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/selection-event-data.js"
+  },
+  {
+   "compression": 8,
+   "hash": "ea90483078c07ff2447e1de7b5541d00837014bf",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/server-event.js",
+   "size": 756,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/server-event.js"
+  },
+  {
+   "compression": 8,
+   "hash": "0e561827f60b9134ec6791eaab6932ee4af34780",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/slider-event-data.js",
+   "size": 481,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/slider-event-data.js"
+  },
+  {
+   "compression": 8,
+   "hash": "e8e2b04c70fe30fd9c8a7bf59879615937a27d86",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/text-edit-event-data.js",
+   "size": 1054,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/text-edit-event-data.js"
+  },
+  {
+   "compression": 8,
+   "hash": "40a14d8a8fddb8543510c266dd9d68b41570600f",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/toggle-event-data.js",
+   "size": 509,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/toggle-event-data.js"
+  },
+  {
+   "compression": 8,
+   "hash": "e9333d23498e027c21137cd3c0b8b67dd249c3c2",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/transform-node-event-data.js",
+   "size": 1613,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/transform-node-event-data.js"
+  },
+  {
+   "compression": 8,
+   "hash": "d0c6fbcbfeee3eb3680b00aff256ceacaeac65a5",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/ui-event-data.js",
+   "size": 972,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/ui-event-data.js"
+  },
+  {
+   "compression": 8,
+   "hash": "61eef0a157d10cb0265f4ce4d428b3b8cc2c62ca",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/video-event-data.js",
+   "size": 1005,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/video-event-data.js"
+  },
+  {
+   "compression": 8,
+   "hash": "0ec9c1833726e583653a75a05bf2e10a88f707dd",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-source.js",
+   "size": 875,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-source.js"
+  },
+  {
+   "compression": 8,
+   "hash": "0e08feca841c6b3ee6c303303cf5692e2d9f8438",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-type.js",
+   "size": 1110,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-type.js"
+  },
+  {
+   "compression": 8,
+   "hash": "ab7888110d07a0ab9e14ee25a71da45eb0f0f6e3",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/flow-direction.js",
+   "size": 425,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/flow-direction.js"
+  },
+  {
+   "compression": 8,
+   "hash": "b5b2d7758f2e4ccffc97c45aebcadb8b197723b5",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/focus-request.js",
+   "size": 435,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/focus-request.js"
+  },
+  {
+   "compression": 8,
+   "hash": "cfdb5ed43a00372729d85ba06e10f5f331aaa7f5",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/font-style.js",
+   "size": 541,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/font-style.js"
+  },
+  {
+   "compression": 8,
+   "hash": "a3108aa1e571a4e65780c89b4b3439f699af1ccd",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/gesture-direction.js",
+   "size": 711,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/gesture-direction.js"
+  },
+  {
+   "compression": 8,
+   "hash": "1feece4e643ab80d3eb06ce474de12068efb9b90",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/gesture-type.js",
+   "size": 1473,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/gesture-type.js"
+  },
+  {
+   "compression": 8,
+   "hash": "7874547e6f5a678fac13159ca9c5d5c6b57fd853",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/gravity-well-snap.js",
+   "size": 520,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/gravity-well-snap.js"
+  },
+  {
+   "compression": 8,
+   "hash": "89f0d430ba0242200fd0d07f4c31b4929bfe3923",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/hand-gesture-keypoint-name.js",
+   "size": 2180,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/hand-gesture-keypoint-name.js"
+  },
+  {
+   "compression": 8,
+   "hash": "17f19f7b365e385c4cfb48472c3c1d60ccd66468",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/horizontal-text-alignment.js",
+   "size": 489,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/horizontal-text-alignment.js"
+  },
+  {
+   "compression": 8,
+   "hash": "3ba3d084438e295093b5d71f78705e3a8cdecba2",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/key-codes.js",
+   "size": 12236,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/key-codes.js"
+  },
+  {
+   "compression": 8,
+   "hash": "69537d9d2fb5341c7a2e1cbda3388a0d9d8f6f30",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/label-display-mode.js",
+   "size": 360,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/label-display-mode.js"
+  },
+  {
+   "compression": 8,
+   "hash": "f1813ef42422fb969d72933606a00998e51bad42",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/light-type.js",
+   "size": 364,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/light-type.js"
+  },
+  {
+   "compression": 8,
+   "hash": "accb12021b0e4f5fd05bbc1a89acee5efa2c4077",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/loading-spinner-type.js",
+   "size": 413,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/loading-spinner-type.js"
+  },
+  {
+   "compression": 8,
+   "hash": "ae059482b650f2fc1dd84c83f2737c2a72f18067",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/orientation.js",
+   "size": 349,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/orientation.js"
+  },
+  {
+   "compression": 8,
+   "hash": "fac6e498f3fe77737b9010acf362ce4c861ecc41",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/panel-cursor-transition-type.js",
+   "size": 489,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/panel-cursor-transition-type.js"
+  },
+  {
+   "compression": 8,
+   "hash": "db7d9739bf9c43b0dd07909cdac21d7c4ecf6a81",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/panel-edge-constraint-level.js",
+   "size": 603,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/panel-edge-constraint-level.js"
+  },
+  {
+   "compression": 8,
+   "hash": "2b427a5b0b9e2713e0f6e6faf3085e06c84ddc93",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/portal-icon-size.js",
+   "size": 447,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/portal-icon-size.js"
+  },
+  {
+   "compression": 8,
+   "hash": "72050ca9a62e4fb5cadb91284af9448c45a60f59",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/quality.js",
+   "size": 734,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/quality.js"
+  },
+  {
+   "compression": 8,
+   "hash": "1906c1565dfdaaeec3d8c00ca886a5de787b2959",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/ray-cast-event-type.js",
+   "size": 1307,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/ray-cast-event-type.js"
+  },
+  {
+   "compression": 8,
+   "hash": "ed5bbc0ae30c593cc27fb555aab3de684d182091",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/rendering-layer.js",
+   "size": 663,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/rendering-layer.js"
+  },
+  {
+   "compression": 8,
+   "hash": "cdfb2e6770ea2d11380a71da4b7bb9d86b3b2824",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/scroll-bar-visibility.js",
+   "size": 376,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/scroll-bar-visibility.js"
+  },
+  {
+   "compression": 8,
+   "hash": "a8b6d2f82e6e0ddf16b37f9e3470ea7f6f03cb21",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/scroll-direction.js",
+   "size": 328,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/scroll-direction.js"
+  },
+  {
+   "compression": 8,
+   "hash": "50662c6a8239e36729fb0e748f5d793bad099f4e",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/selection-event-type.js",
+   "size": 413,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/selection-event-type.js"
+  },
+  {
+   "compression": 8,
+   "hash": "e9d6e441381249c60d4b2cafc1c78a989c93cb9f",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/shader-type.js",
+   "size": 374,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/shader-type.js"
+  },
+  {
+   "compression": 8,
+   "hash": "7b64d769303ab8b2b81e0f5aa08afc5f7041ed78",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/side.js",
+   "size": 300,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/side.js"
+  },
+  {
+   "compression": 8,
+   "hash": "c98c08b59c1fbc8bef953b0a3a4103e0d690b14b",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/sound-event.js",
+   "size": 2090,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/sound-event.js"
+  },
+  {
+   "compression": 8,
+   "hash": "1c11e9da49c45a1da0633724e5cd0653d604246f",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/system-icons.js",
+   "size": 10089,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/system-icons.js"
+  },
+  {
+   "compression": 8,
+   "hash": "a40065bb5762ac55516a5d51c2787c2d83f48244",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/text-entry-mode.js",
+   "size": 426,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/text-entry-mode.js"
+  },
+  {
+   "compression": 8,
+   "hash": "cee407d43a11616aced5da21444b3e5a0b3bea77",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/texture-type.js",
+   "size": 843,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/texture-type.js"
+  },
+  {
+   "compression": 8,
+   "hash": "582511450ba423d81d1923021e7d9a72eaaaf6a7",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/time-format.js",
+   "size": 2985,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/time-format.js"
+  },
+  {
+   "compression": 8,
+   "hash": "3ea06e01ea959abe4c13c50ea662d52af7040d8d",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/time-period.js",
+   "size": 286,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/time-period.js"
+  },
+  {
+   "compression": 8,
+   "hash": "e2ee4ae2bdcb85e88035aed22d6f9fb5bd6cca6f",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/toggle-type.js",
+   "size": 343,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/toggle-type.js"
+  },
+  {
+   "compression": 8,
+   "hash": "deb8df7cf0773123216c77aef85e5a5c4720baf6",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/ui-node-events.js",
+   "size": 4197,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/ui-node-events.js"
+  },
+  {
+   "compression": 8,
+   "hash": "dd8ddb607de1b3a570485b13c8fc0e149bec0c6a",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/video-action.js",
+   "size": 245,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/video-action.js"
+  },
+  {
+   "compression": 8,
+   "hash": "a903059571a99dfce3e304048d1282adec135f9c",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/video-event-type.js",
+   "size": 600,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/video-event-type.js"
+  },
+  {
+   "compression": 8,
+   "hash": "73f9419ab4e8d2983cc89665a5cdb5383a042cda",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/view-mode.js",
+   "size": 322,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/view-mode.js"
+  },
+  {
+   "compression": 8,
+   "hash": "b1b4f8d5b65e09b2bc98f66276cd18addfd54d6b",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/utilities/extractor.js",
+   "size": 285,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/utilities/extractor.js"
+  },
+  {
+   "compression": 8,
+   "hash": "751259fd8a68e9803f402e33e3d8a97272092681",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/utilities/validator.js",
+   "size": 4974,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/utilities/validator.js"
+  },
+  {
+   "compression": 8,
+   "hash": "c6f51e6ddaa1c8f741a0529255f21a4f053b804d",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/react-magic-script/magic-script-renderer.js",
+   "size": 13738,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/react-magic-script/magic-script-renderer.js"
+  },
+  {
+   "compression": 8,
+   "hash": "b03f89af657d758b8342a085f4904bd2c6e44b90",
+   "pkgpath": "bin/lumin/node_modules/magic-script-components-lumin/src/react-magic-script/react-magic-script.js",
+   "size": 543,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-components-lumin/src/react-magic-script/react-magic-script.js"
+  },
+  {
+   "compression": 8,
+   "hash": "d344c26a9ceeff8bb40296a577b72a297ff92581",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/assert.js",
+   "size": 211,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/assert.js"
+  },
+  {
+   "compression": 8,
+   "hash": "991701ead1e4d88ca70c0a46ac408ec2c0cfe853",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/bintools.js",
+   "size": 5374,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/bintools.js"
+  },
+  {
+   "compression": 8,
+   "hash": "0b00bbaa8677cce583b9c6bdef2945588e9ee959",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/codec-wrap.js",
+   "size": 1880,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/codec-wrap.js"
+  },
+  {
+   "compression": 8,
+   "hash": "773c9c293a3d11c0ffb7bf9a93693a704c851f22",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/console.js",
+   "size": 788,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/console.js"
+  },
+  {
+   "compression": 8,
+   "hash": "1caf6ca664de74056e12428319d08a5f14b5e93f",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/crypto.js",
+   "size": 448,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/crypto.js"
+  },
+  {
+   "compression": 8,
+   "hash": "de9cdd906aa387360bf7ffefaa76e583876aa067",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/evented.js",
+   "size": 1089,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/evented.js"
+  },
+  {
+   "compression": 8,
+   "hash": "564601b93195cf00f3072dc96b54a73a90592b9c",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/fetch.js",
+   "size": 7467,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/fetch.js"
+  },
+  {
+   "compression": 8,
+   "hash": "ca5ef49ae113dfe68098a5ecb9b1500670891a3e",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/fs-uv.js",
+   "size": 1002,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/fs-uv.js"
+  },
+  {
+   "compression": 8,
+   "hash": "cdb5eafffd72e1db73829553c41f69d7e7d63577",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/fs.js",
+   "size": 3928,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/fs.js"
+  },
+  {
+   "compression": 8,
+   "hash": "9ef91d62105008365cdfbf9f871d789bc9d4974e",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/headers.js",
+   "size": 1573,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/headers.js"
+  },
+  {
+   "compression": 8,
+   "hash": "72ac60f4a9b110fc19180d2f5fefd0a9bd0da229",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/http-codec.js",
+   "size": 8593,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/http-codec.js"
+  },
+  {
+   "compression": 8,
+   "hash": "dd336f0aae4de2247d826b21c3b3516686688abd",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/localStorage.js",
+   "size": 950,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/localStorage.js"
+  },
+  {
+   "compression": 8,
+   "hash": "a463ddb17460e051dfd086de8d70ead0fdea59af",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/mime.js",
+   "size": 5784,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/mime.js"
+  },
+  {
+   "compression": 8,
+   "hash": "8a209b1e3b9a51b7846bb5ede8ebd9e6a914e12d",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/node/process.js",
+   "size": 241,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/node/process.js"
+  },
+  {
+   "compression": 8,
+   "hash": "633d88b621386163d2f4aecb459d8d1eaf3f1940",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/polyfills.js",
+   "size": 1194,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/polyfills.js"
+  },
+  {
+   "compression": 8,
+   "hash": "dd008681e7f9280f72fb9d20320726b1061589df",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/pretty-print.js",
+   "size": 8567,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/pretty-print.js"
+  },
+  {
+   "compression": 8,
+   "hash": "5a531a5aea8706254fdf577c0231c1d922023310",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/resolve.js",
+   "size": 859,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/resolve.js"
+  },
+  {
+   "compression": 8,
+   "hash": "65a0e5ad85201a130a3d3762a55b1e43951e250f",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/sha1.js",
+   "size": 3563,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/sha1.js"
+  },
+  {
+   "compression": 8,
+   "hash": "c665a011b71fd571aea7703cf3a0a0f96b95343e",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/socket-wrap.js",
+   "size": 2606,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/socket-wrap.js"
+  },
+  {
+   "compression": 8,
+   "hash": "379ff0f739120f40e7f4639225bdf3ed583d4814",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/tcp.js",
+   "size": 944,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/tcp.js"
+  },
+  {
+   "compression": 8,
+   "hash": "2ca4e16db232d9bdc449fafae0ca9abec0dcae93",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/text-encoder.js",
+   "size": 2386,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/text-encoder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "dc5e2649b5c022004d4afc10d8b343c97d0c9f01",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/timers.js",
+   "size": 2918,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/timers.js"
+  },
+  {
+   "compression": 8,
+   "hash": "ba230d3a70e3fe50d3ecd93b66e78cc7109551bc",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/tls-wrap.js",
+   "size": 2384,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/tls-wrap.js"
+  },
+  {
+   "compression": 8,
+   "hash": "f6de87e3cda3151010bc63bc466e16419a3b7352",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/utils.js",
+   "size": 967,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/utils.js"
+  },
+  {
+   "compression": 8,
+   "hash": "9d41b2ab54a3bc59488b2a1b14f07af202a38662",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/websocket-codec.js",
+   "size": 3029,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/websocket-codec.js"
+  },
+  {
+   "compression": 8,
+   "hash": "136f57763011c6265e56a64d6e6d5fd649b702f3",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/websocket.js",
+   "size": 6262,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/websocket.js"
+  },
+  {
+   "compression": 8,
+   "hash": "a0e174cdbb15e97455d727e0a8b31f14ce71e71b",
+   "pkgpath": "bin/lumin/node_modules/magic-script-polyfills/src/xhr.js",
+   "size": 1954,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/magic-script-polyfills/src/xhr.js"
+  },
+  {
+   "compression": 8,
+   "hash": "fea9a17f3250cd654ad11d97ab57dc7e79d82f2e",
+   "pkgpath": "bin/lumin/node_modules/object-assign/index.js",
+   "size": 2140,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/object-assign/index.js"
+  },
+  {
+   "compression": 8,
+   "hash": "852b88858bbee2c883f96e6bc831660cc1355403",
+   "pkgpath": "bin/lumin/node_modules/prop-types/checkPropTypes.js",
+   "size": 3720,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/prop-types/checkPropTypes.js"
+  },
+  {
+   "compression": 8,
+   "hash": "ae79af6947e6a6e4a2c4fc361700e793721a3869",
+   "pkgpath": "bin/lumin/node_modules/prop-types/lib/ReactPropTypesSecret.js",
+   "size": 366,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/prop-types/lib/ReactPropTypesSecret.js"
+  },
+  {
+   "compression": 8,
+   "hash": "91853d2a43dca2e98897703b3a73ab49d401db6c",
+   "pkgpath": "bin/lumin/node_modules/react-reconciler/cjs/react-reconciler.development.js",
+   "size": 552474,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/react-reconciler/cjs/react-reconciler.development.js"
+  },
+  {
+   "compression": 8,
+   "hash": "667badd95582bf9e193597d14a59a24e0ce5437e",
+   "pkgpath": "bin/lumin/node_modules/react-reconciler/cjs/react-reconciler.production.min.js",
+   "size": 70822,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/react-reconciler/cjs/react-reconciler.production.min.js"
+  },
+  {
+   "compression": 8,
+   "hash": "2a8764a915cf87f4689e54b964f93bb9d968cd30",
+   "pkgpath": "bin/lumin/node_modules/react-reconciler/index.js",
+   "size": 599,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/react-reconciler/index.js"
+  },
+  {
+   "compression": 8,
+   "hash": "e13c9fff018f0ec92127e7f110075b9e773762b5",
+   "pkgpath": "bin/lumin/node_modules/react/cjs/react.development.js",
+   "size": 64021,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/react/cjs/react.development.js"
+  },
+  {
+   "compression": 8,
+   "hash": "e25a868eef6a90fcf1eb95eb12818667899e177c",
+   "pkgpath": "bin/lumin/node_modules/react/cjs/react.production.min.js",
+   "size": 6439,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/react/cjs/react.production.min.js"
+  },
+  {
+   "compression": 8,
+   "hash": "7104d3623674c05a395d743e5e23a6fe2da2d65e",
+   "pkgpath": "bin/lumin/node_modules/react/index.js",
+   "size": 525,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/react/index.js"
+  },
+  {
+   "compression": 8,
+   "hash": "f36e62a6c0395a6b20ec4487cf8d84bbcedc2936",
+   "pkgpath": "bin/lumin/node_modules/scheduler/cjs/scheduler-tracing.development.js",
+   "size": 12179,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/scheduler/cjs/scheduler-tracing.development.js"
+  },
+  {
+   "compression": 8,
+   "hash": "685463b93fae40c1c188ca856ebb7ae30d0c421d",
+   "pkgpath": "bin/lumin/node_modules/scheduler/cjs/scheduler-tracing.production.min.js",
+   "size": 2071,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/scheduler/cjs/scheduler-tracing.production.min.js"
+  },
+  {
+   "compression": 8,
+   "hash": "8a9f9d8b19dca7b49c3d5ab14459b65a3539acf3",
+   "pkgpath": "bin/lumin/node_modules/scheduler/cjs/scheduler.development.js",
+   "size": 28480,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/scheduler/cjs/scheduler.development.js"
+  },
+  {
+   "compression": 8,
+   "hash": "6c708b6dc6c6af2932185af7124c637dc36dd19c",
+   "pkgpath": "bin/lumin/node_modules/scheduler/cjs/scheduler.production.min.js",
+   "size": 8373,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/scheduler/cjs/scheduler.production.min.js"
+  },
+  {
+   "compression": 8,
+   "hash": "b11117d7ed036f696031bdeec27c096e532c4435",
+   "pkgpath": "bin/lumin/node_modules/scheduler/index.js",
+   "size": 527,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/scheduler/index.js"
+  },
+  {
+   "compression": 8,
+   "hash": "eb4b5d9d9af3af1fa3c0d5ae83f729fd68789ef8",
+   "pkgpath": "bin/lumin/node_modules/scheduler/tracing.js",
+   "size": 555,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/node_modules/scheduler/tracing.js"
+  },
+  {
+   "compression": 8,
+   "hash": "1bac297c9ac2fd9c473f493b9e99f28f25ac4425",
+   "pkgpath": "bin/lumin/src/global-scope.js",
+   "size": 123,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/src/global-scope.js"
+  },
+  {
+   "compression": 8,
+   "hash": "7921959255736607c7b4a152d3502ac9003fad63",
+   "pkgpath": "bin/lumin/src/main.js",
+   "size": 418,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/lumin/src/main.js"
+  },
+  {
+   "compression": 8,
+   "hash": "8c7c652128e3ee2724e21bb476f807d26f9c322e",
+   "pkgpath": "bin/node_modules/magic-script-components/src/components.js",
+   "size": 531,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/node_modules/magic-script-components/src/components.js"
+  },
+  {
+   "compression": 8,
+   "hash": "777b2021daeb19ab4f755701f2ae129ff1ce24eb",
+   "pkgpath": "bin/node_modules/object-assign/index.js",
+   "size": 2260,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/node_modules/object-assign/index.js"
+  },
+  {
+   "compression": 8,
+   "hash": "e61b67530e588e018054bb6e3939c7891e8c9daf",
+   "pkgpath": "bin/node_modules/prop-types/checkPropTypes.js",
+   "size": 3570,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/node_modules/prop-types/checkPropTypes.js"
+  },
+  {
+   "compression": 8,
+   "hash": "cb4dc235bb168ea84031cdcfbf9c939c9cfd969c",
+   "pkgpath": "bin/node_modules/prop-types/lib/ReactPropTypesSecret.js",
+   "size": 365,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/node_modules/prop-types/lib/ReactPropTypesSecret.js"
+  },
+  {
+   "compression": 8,
+   "hash": "7c117dff789d5c47fa5be8ffe196c2556027d89a",
+   "pkgpath": "bin/node_modules/react/cjs/react.development.js",
+   "size": 70472,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/node_modules/react/cjs/react.development.js"
+  },
+  {
+   "compression": 8,
+   "hash": "bb163822f0275262fab341c3dea0874908d9a504",
+   "pkgpath": "bin/node_modules/react/cjs/react.production.min.js",
+   "size": 8863,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/node_modules/react/cjs/react.production.min.js"
+  },
+  {
+   "compression": 8,
+   "hash": "9ef634d45882a2ca58fe2b63ccee645227f5e13a",
+   "pkgpath": "bin/node_modules/react/index.js",
+   "size": 518,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/node_modules/react/index.js"
+  },
+  {
+   "compression": 8,
+   "hash": "794049e697228eedc010f3bf29a6197afed4a5cf",
+   "pkgpath": "bin/src/app.js",
+   "size": 2361,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/src/app.js"
+  },
+  {
+   "compression": 8,
+   "hash": "1e63778667ca45f930316c0e202782276cd0d790",
+   "pkgpath": "./digest.sha512.signed",
+   "size": 46296,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/digest.sha512.signed"
+  },
+  {
+   "compression": 8,
+   "hash": "b15a51f4aa2e9ad193ea734cbbeeb5fd236fe3f7",
+   "pkgpath": "manifest.xml",
+   "size": 575,
+   "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/manifest.xml",
+   "xfrm_flags": {
+    "manifest": {
+     "cert_hash": "3ecaa845cd73f29c4b7ccf7c3cbea451a1dde62e",
+     "developer_id": "fb209fd5-a91e-4d0c-a8e4-b108f823eee0",
+     "min_api_level": "2"
+    }
+   },
+   "xfrm_hash": "cc71b6f2f335ef7cbe91bdf397783c75d982688b",
+   "xfrm_path": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/.out/app/debug_lumin_clang-3.8_aarch64/manifest.xml-7bc9dcc4adae4cd9",
+   "xfrm_size": 551
+  }
+ ],
+ "pkgflags": {
+  "signed": {
+   "cert": "/Users/mthompson/personal/spacechangers/magicsrc/spacechangers/cubeTest/spacechangers.cert"
+  },
+  "taildata": {
+   "debuggable": true,
+   "devcert": "/Users/mthompson/personal/spacechangers/magicsrc/spacechangers/cubeTest/spacechangers.cert",
+   "sbox": "USER",
+   "version": 3
+  }
+ }
+}
