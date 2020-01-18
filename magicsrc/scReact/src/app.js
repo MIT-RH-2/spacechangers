@@ -30,12 +30,7 @@ export default class MyApp extends React.Component {
   }
 
   renderSurfacesMenu = () => {
-    return  <Panel
-      localPosition={[-1, 0.4, 0]}
-      panelShape={aShape}
-      cursorTransitionType="closest-edge"
-      cursorVisible={true}
-    >
+    return  <View>
       <Text>Surfaces</Text>
       <ScrollView>
         {this.state.surfaces.map((s, i) => {
@@ -44,7 +39,7 @@ export default class MyApp extends React.Component {
           </Text>
         })}
       </ScrollView>
-    </Panel>
+    </View>
   }
 
   beginAddingSurface = () => {
@@ -101,7 +96,6 @@ export default class MyApp extends React.Component {
           ? this.renderGuidedSurfaceExperience()
           : this.renderMenus()
         }
-        {this.renderSurfacesMenu()}
       </View>
     );
   }

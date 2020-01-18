@@ -1402,9 +1402,9 @@
   },
   {
    "compression": 8,
-   "hash": "e5e1c9e922a0e2c6075bac174dc7280fbb1db628",
+   "hash": "8c7c652128e3ee2724e21bb476f807d26f9c322e",
    "pkgpath": "bin/node_modules/magic-script-components/src/components.js",
-   "size": 646,
+   "size": 531,
    "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/node_modules/magic-script-components/src/components.js"
   },
   {
@@ -1451,14 +1451,14 @@
   },
   {
    "compression": 8,
-   "hash": "b44d50e606dcdb0bccb4a140451e1bb6feb49288",
+   "hash": "92df3a522ac6adde8d2acd4293c98e7d6dce51e7",
    "pkgpath": "bin/src/app.js",
-   "size": 2556,
+   "size": 2299,
    "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/bin/src/app.js"
   },
   {
    "compression": 8,
-   "hash": "cf74572bdf5bfd547abeed178d338ff8d25cc40f",
+   "hash": "2c877a04752aacffae12ec5d18001acd49fecd30",
    "pkgpath": "./digest.sha512.signed",
    "size": 46296,
    "src": "/Users/mthompson/personal/spacechangers/magicsrc/scReact/lumin/digest.sha512.signed"
