@@ -57,7 +57,7 @@ var _ = (function (React) {
 
       _defineProperty(this, "beginAddingSurface", () => {
         this.setState({
-          addingSurface: true,
+          addingNewSurface: true,
           newSurfacePoints: {
             topLeft: null,
             topRight: null,
@@ -95,7 +95,7 @@ var _ = (function (React) {
 
       this.state = {
         message: props.message,
-        surfaces: [],
+        surfaces: ['qq'],
         addingNewSurface: false
       };
     }

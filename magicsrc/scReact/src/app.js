@@ -8,7 +8,7 @@ export default class MyApp extends React.Component {
 
     this.state = {
       message: props.message,
-      surfaces: [],
+      surfaces: ['qq'],
       addingNewSurface: false
     };
   }
@@ -37,7 +37,7 @@ export default class MyApp extends React.Component {
 
   beginAddingSurface = () => {
     this.setState({
-      addingSurface: true,
+      addingNewSurface: true,
       newSurfacePoints: {
         topLeft: null,
         topRight: null,
