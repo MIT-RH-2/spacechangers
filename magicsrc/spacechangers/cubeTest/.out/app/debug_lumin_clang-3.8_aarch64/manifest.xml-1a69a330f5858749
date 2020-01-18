@@ -1,0 +1,9 @@
+<manifest xmlns:ml="magicleap" ml:developer_id="fb209fd5-a91e-4d0c-a8e4-b108f823eee0" ml:package="com.magicleaptest.cubetest" ml:version_code="1" ml:version_name="0.0.1">
+  <application ml:min_api_level="2" ml:sdk_version="1.0" ml:visible_name="CubeTest">
+    <component ml:binary_name="bin/index.js" ml:name=".universe" ml:type="Universe" ml:visible_name="CubeTest">
+      <mode ml:shareable="true" />
+      <icon ml:model_folder="" ml:portal_folder="" />
+    </component>
+    <uses-privilege ml:name="MagicScript" />
+  </application>
+</manifest>

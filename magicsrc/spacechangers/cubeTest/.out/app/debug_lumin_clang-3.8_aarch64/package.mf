@@ -1,0 +1,263 @@
+{
+ "entries": [
+  {
+   "compression": 8,
+   "hash": "87fdae09ea0757b73190846475f9dcc4e761bb7a",
+   "pkgpath": "bin/.DS_Store",
+   "size": 6148,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/.DS_Store"
+  },
+  {
+   "compression": 8,
+   "hash": "9b3b9bf7aaa41ad178f5c1db28d09b7cfe724299",
+   "pkgpath": "bin/index.js",
+   "size": 49,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/index.js"
+  },
+  {
+   "compression": 8,
+   "hash": "d344c26a9ceeff8bb40296a577b72a297ff92581",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/assert.js",
+   "size": 211,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/assert.js"
+  },
+  {
+   "compression": 8,
+   "hash": "991701ead1e4d88ca70c0a46ac408ec2c0cfe853",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/bintools.js",
+   "size": 5374,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/bintools.js"
+  },
+  {
+   "compression": 8,
+   "hash": "0b00bbaa8677cce583b9c6bdef2945588e9ee959",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/codec-wrap.js",
+   "size": 1880,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/codec-wrap.js"
+  },
+  {
+   "compression": 8,
+   "hash": "773c9c293a3d11c0ffb7bf9a93693a704c851f22",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/console.js",
+   "size": 788,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/console.js"
+  },
+  {
+   "compression": 8,
+   "hash": "1caf6ca664de74056e12428319d08a5f14b5e93f",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/crypto.js",
+   "size": 448,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/crypto.js"
+  },
+  {
+   "compression": 8,
+   "hash": "de9cdd906aa387360bf7ffefaa76e583876aa067",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/evented.js",
+   "size": 1089,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/evented.js"
+  },
+  {
+   "compression": 8,
+   "hash": "564601b93195cf00f3072dc96b54a73a90592b9c",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/fetch.js",
+   "size": 7467,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/fetch.js"
+  },
+  {
+   "compression": 8,
+   "hash": "ca5ef49ae113dfe68098a5ecb9b1500670891a3e",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/fs-uv.js",
+   "size": 1002,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/fs-uv.js"
+  },
+  {
+   "compression": 8,
+   "hash": "cdb5eafffd72e1db73829553c41f69d7e7d63577",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/fs.js",
+   "size": 3928,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/fs.js"
+  },
+  {
+   "compression": 8,
+   "hash": "9ef91d62105008365cdfbf9f871d789bc9d4974e",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/headers.js",
+   "size": 1573,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/headers.js"
+  },
+  {
+   "compression": 8,
+   "hash": "72ac60f4a9b110fc19180d2f5fefd0a9bd0da229",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/http-codec.js",
+   "size": 8593,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/http-codec.js"
+  },
+  {
+   "compression": 8,
+   "hash": "dd336f0aae4de2247d826b21c3b3516686688abd",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/localStorage.js",
+   "size": 950,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/localStorage.js"
+  },
+  {
+   "compression": 8,
+   "hash": "a463ddb17460e051dfd086de8d70ead0fdea59af",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/mime.js",
+   "size": 5784,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/mime.js"
+  },
+  {
+   "compression": 8,
+   "hash": "8a209b1e3b9a51b7846bb5ede8ebd9e6a914e12d",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/node/process.js",
+   "size": 241,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/node/process.js"
+  },
+  {
+   "compression": 8,
+   "hash": "633d88b621386163d2f4aecb459d8d1eaf3f1940",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/polyfills.js",
+   "size": 1194,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/polyfills.js"
+  },
+  {
+   "compression": 8,
+   "hash": "dd008681e7f9280f72fb9d20320726b1061589df",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/pretty-print.js",
+   "size": 8567,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/pretty-print.js"
+  },
+  {
+   "compression": 8,
+   "hash": "5a531a5aea8706254fdf577c0231c1d922023310",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/resolve.js",
+   "size": 859,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/resolve.js"
+  },
+  {
+   "compression": 8,
+   "hash": "65a0e5ad85201a130a3d3762a55b1e43951e250f",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/sha1.js",
+   "size": 3563,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/sha1.js"
+  },
+  {
+   "compression": 8,
+   "hash": "c665a011b71fd571aea7703cf3a0a0f96b95343e",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/socket-wrap.js",
+   "size": 2606,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/socket-wrap.js"
+  },
+  {
+   "compression": 8,
+   "hash": "379ff0f739120f40e7f4639225bdf3ed583d4814",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/tcp.js",
+   "size": 944,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/tcp.js"
+  },
+  {
+   "compression": 8,
+   "hash": "2ca4e16db232d9bdc449fafae0ca9abec0dcae93",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/text-encoder.js",
+   "size": 2386,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/text-encoder.js"
+  },
+  {
+   "compression": 8,
+   "hash": "dc5e2649b5c022004d4afc10d8b343c97d0c9f01",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/timers.js",
+   "size": 2918,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/timers.js"
+  },
+  {
+   "compression": 8,
+   "hash": "ba230d3a70e3fe50d3ecd93b66e78cc7109551bc",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/tls-wrap.js",
+   "size": 2384,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/tls-wrap.js"
+  },
+  {
+   "compression": 8,
+   "hash": "f6de87e3cda3151010bc63bc466e16419a3b7352",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/utils.js",
+   "size": 967,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/utils.js"
+  },
+  {
+   "compression": 8,
+   "hash": "9d41b2ab54a3bc59488b2a1b14f07af202a38662",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/websocket-codec.js",
+   "size": 3029,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/websocket-codec.js"
+  },
+  {
+   "compression": 8,
+   "hash": "136f57763011c6265e56a64d6e6d5fd649b702f3",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/websocket.js",
+   "size": 6262,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/websocket.js"
+  },
+  {
+   "compression": 8,
+   "hash": "a0e174cdbb15e97455d727e0a8b31f14ce71e71b",
+   "pkgpath": "bin/node_modules/magic-script-polyfills/src/xhr.js",
+   "size": 1954,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/node_modules/magic-script-polyfills/src/xhr.js"
+  },
+  {
+   "compression": 8,
+   "hash": "03b866e0c07c4eea4ba748817797da40bb3a9839",
+   "pkgpath": "bin/src/app.js",
+   "size": 914,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/src/app.js"
+  },
+  {
+   "compression": 8,
+   "hash": "b075676bab19b1753b5db06c499274cb565fd78b",
+   "pkgpath": "bin/src/main.js",
+   "size": 365,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/bin/src/main.js"
+  },
+  {
+   "compression": 8,
+   "hash": "858c22129cbbecbb49a20542007a49d2c5fe51c7",
+   "pkgpath": "./digest.sha512.signed",
+   "size": 6222,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/digest.sha512.signed"
+  },
+  {
+   "compression": 8,
+   "hash": "f977d59c5c93164fddc8e92dbc1d38f5dee4a9ac",
+   "pkgpath": "manifest.xml",
+   "size": 571,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/manifest.xml",
+   "xfrm_flags": {
+    "manifest": {
+     "cert_hash": "3ecaa845cd73f29c4b7ccf7c3cbea451a1dde62e",
+     "developer_id": "fb209fd5-a91e-4d0c-a8e4-b108f823eee0",
+     "min_api_level": "2"
+    }
+   },
+   "xfrm_hash": "088903df5ce586015ea3f8d9f21c0b6838556f3f",
+   "xfrm_path": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/.out/app/debug_lumin_clang-3.8_aarch64/manifest.xml-1a69a330f5858749",
+   "xfrm_size": 547
+  },
+  {
+   "compression": 8,
+   "hash": "124170ef1d2cc2c02d828583de2ae0c27079e7c3",
+   "pkgpath": "res/.placeholder",
+   "size": 44,
+   "src": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/cubeTest/res/.placeholder"
+  }
+ ],
+ "pkgflags": {
+  "signed": {
+   "cert": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/spacechangers.cert"
+  },
+  "taildata": {
+   "debuggable": true,
+   "devcert": "/Users/vmanokhin/Sites/birthday/MITXRHack2020/spacechangers/magicsrc/spacechangers/spacechangers.cert",
+   "sbox": "USER",
+   "version": 3
+  }
+ }
+}
