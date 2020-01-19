@@ -1,68 +1,61 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# SpaceChanger
 
-## Available Scripts
+SpaceChanger is a WebAR utility to help with home renovation. Users can visualize wall, ceiling, and floor texture changes from their AR enabled smartphone.
 
-In the project directory, you can run:
+## Source Code
 
-### `yarn start`
+SpaceChange is open source and hosted on GitHub:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[React Native ARKit app for creating rooms (RN-AR branch)] - https://github.com/code-matt/spacechangers/tree/RN-AR
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+[WebXR App For Viewing rooms (master branch)] - https://github.com/code-matt/spacechangers/edit/master/
 
-### `yarn test`
+## NOTE BELOw!
+( Different git histories to see on branches above because of very late project tech pivot to ARKit !!)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `yarn build`
+1. Upon launch, users will add SpaceChanger Surfaces to their environment by placing 4 corners to define a surface. 
+2. After placement, users can interact with any SpaceChanger Surface by selecting them. Users will be able to see texture/color/paint changes in real-time, and select from textures or paints provided by manufacturers.
+3. If in need of inspiration, the color palette selector will allow users to choose from our recommended Color Schemes.
+4. Furniture can also be placed in the space, allowing for a complete home renovation experience.
+5. Designs can be saved and uploaded to our server for sharing, downloading, and viewing on other devices in XR.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Development Story
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+We started by exploring different options for interacting with AR environments including A-Frame/WebXR, MagicScript/MagicLeap. After consulting a few WebXR mentors, we decided to commit to developing a MagicScript experience for the Magic Leap One - with hopes that the javascript and React.js based MagicScript would be a relatively easy-to-build solution.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Day 1: our hopes were unfortunately dashed by a full day of development hell on Day 1. We spent the entire day trying to get the Hello World MagicScript example to build successfully to the ML headset. 
 
-### `yarn eject`
+* Day 2: we discovered that there are 3 different flavors of MagicScript, and only one of them works with React. The majority of Day 2 was spent trying to understand the differences between Immersive, Landscape, and MagicScript Components. After several false starts, we eventually got going to a point where MagicScript could not support what we were trying to do, so we were compelled to abandon MagicScript and start afresh. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* Day 3: we began afresh with A-Frame, and got a working prototype for placing surfaces and changing their texture. We'd call that a success!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Build Steps
+### WebAR App
+index.html is AR
+index2.html is VR 
+### RN ARKit App
+```
+clone
+npm install
+cd iod
+pod install
+cd ..
+react-native start
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+( start xcode select development team )
+( click play )
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Development Team
 
-## Learn More
+The SpaceChange team includes: 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* 	Cosmo Kramer
+* 	Jeffrey Lu
+* 	Matt Thompson
+* 	Vadim 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+##
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

@@ -27,6 +27,40 @@ a {
   color: #000;
   text-decoration: none; }
 
+.welcome-screen {
+  padding-left: 12px;
+  padding-right: 12px;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #e9e9e9;
+  opacity: 1;
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+.instructions-box {
+  margin-bottom: 30px;
+}
+.logo {
+  height: 100px;
+  background-size: contain;
+  background-repeat: none;
+  background-position: center;
+  width: 100%;
+  margin-bottom: 50px;
+  /* height: 100px; */
+}
+
+.continue-button {
+  border: 1px solid black;
+  padding: 5px 8px;
+}
+
 a:hover {
   color: #000;
   text-decoration: underline; }
