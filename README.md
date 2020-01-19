@@ -6,8 +6,12 @@ SpaceChanger is a WebAR utility to help with home renovation. Users can visualiz
 
 SpaceChange is open source and hosted on GitHub:
 
-React Native ARKit app for creating rooms (RN-AR branch)
-WebXR App For Viewing rooms (master branch)
+[React Native ARKit app for creating rooms (RN-AR branch)] - https://github.com/code-matt/spacechangers/tree/RN-AR
+
+[WebXR App For Viewing rooms (master branch)] - https://github.com/code-matt/spacechangers/edit/master/
+
+## NOTE BELOw!
+( Different git histories to see on branches above because of very late project tech pivot to ARKit !!)
 
 ## Usage
 
@@ -26,6 +30,23 @@ We started by exploring different options for interacting with AR environments i
 * Day 2: we discovered that there are 3 different flavors of MagicScript, and only one of them works with React. The majority of Day 2 was spent trying to understand the differences between Immersive, Landscape, and MagicScript Components. After several false starts, we eventually got going to a point where MagicScript could not support what we were trying to do, so we were compelled to abandon MagicScript and start afresh. 
 
 * Day 3: we began afresh with A-Frame, and got a working prototype for placing surfaces and changing their texture. We'd call that a success!
+
+## Build Steps
+### WebAR App
+index.html is AR
+index2.html is VR 
+### RN ARKit App
+```
+clone
+npm install
+cd iod
+pod install
+cd ..
+react-native start
+
+( start xcode select development team )
+( click play )
+```
 
 ## Development Team
 
