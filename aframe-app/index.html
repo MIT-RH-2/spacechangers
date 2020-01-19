@@ -1,36 +1,24 @@
 <!DOCTYPE html>
 <html>
-
-
 <head>
     <meta charset="utf-8">
     <title>SpaceChangers Demo</title>
     <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
     <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
 </head>
-<body style='margin : 0px; overflow: hidden;'>
+<body style='margin : 10px; overflow: hidden;'>
 	<a-scene embedded arjs='sourceType: webcam;'>
-		<a-assets>
-            <a-asset-item id="wall" src="assets/modern-wall.glb" ></a-asset-item>
-            <a-asset-item id="model2" src="assets/model2_new.glb" ></a-asset-item>
-            <a-asset-item id="model1" src="assets/model1.glb" ></a-asset-item>
+		<a-assets timeout="60000">
             <a-asset-item id="model3" src="assets/model3.glb" ></a-asset-item>
-            <a-asset-item id="model2-scaled" src="assets/MIT_Reality_Hack_Sign_Model_8.glb" ></a-asset-item>
+            <a-asset-item id="hack-sign" src="assets/MIT_Reality_Hack_Sign_Model_8.glb" ></a-asset-item>
           </a-assets>
-          <!-- use your gltf model -->
-          
-          <!--<a-entity gltf-model="#modelwall"></a-entity>-->
-        <!--<a-marker-camera type='hiro'></a-marker-camera>-->
-        <a-marker type='pattern' url='assets/spacechangers.patt'>
-            <a-entity gltf-model="#model1"></a-entity>
-        </a-marker>
 
         <a-marker preset='hiro'>
-            <a-entity gltf-model="#model3" rotation="0 0 0 "></a-entity>
+            <a-entity gltf-model="#model3" rotation="-50 0 0"></a-entity>
         </a-marker>
 
         <a-marker preset='kanji'>
-            <a-entity gltf-model="#model2-scaled" rotation="180 90 0 "></a-entity>
+            <a-entity gltf-model="#hack-sign" scale="3 3 3" rotation="180 0 210" position="0 0 0"></a-entity>
         </a-marker>
         <a-entity camera></a-entity>
 	</a-scene>
