@@ -6,8 +6,13 @@ SpaceChanger is a WebAR utility to help with home renovation. Users can visualiz
 
 SpaceChange is open source and hosted on GitHub:
 
-React Native ARKit app for creating rooms (RN-AR branch)
-WebXR App For Viewing rooms (master branch)
+[React Native ARKit app for creating rooms (RN-AR branch)] - https://github.com/code-matt/spacechangers/tree/RN-AR
+(Deployed Version) https://manokhinv.github.io/spacechangers/
+
+[WebXR App For Viewing rooms (master branch)] - https://github.com/code-matt/spacechangers/edit/master/
+
+## NOTE BELOW!
+( Different git histories to see on branches above because of very late project tech pivot to ARKit !!)
 
 ## Usage
 
@@ -17,6 +22,8 @@ WebXR App For Viewing rooms (master branch)
 4. Furniture can also be placed in the space, allowing for a complete home renovation experience.
 5. Designs can be saved and uploaded to our server for sharing, downloading, and viewing on other devices in XR.
 
+### Magic Leap App --> Our Server --> WebXR Viewing
+
 ## Development Story
 
 We started by exploring different options for interacting with AR environments including A-Frame/WebXR, MagicScript/MagicLeap. After consulting a few WebXR mentors, we decided to commit to developing a MagicScript experience for the Magic Leap One - with hopes that the javascript and React.js based MagicScript would be a relatively easy-to-build solution.
@@ -25,7 +32,7 @@ We started by exploring different options for interacting with AR environments i
 
 * Day 2: we discovered that there are 3 different flavors of MagicScript, and only one of them works with React. The majority of Day 2 was spent trying to understand the differences between Immersive, Landscape, and MagicScript Components. After several false starts, we eventually got going to a point where MagicScript could not support what we were trying to do, so we were compelled to abandon MagicScript and start afresh. 
 
-* Day 3: we began afresh with A-Frame, and got a working prototype for placing surfaces and changing their texture. We'd call that a success!
+* Day 3: we began afresh with A-Frame, and got a working prototype for placing surfaces and changing their texture. We'd call that a success! We also pivoted to React Native in hopes of recreating the first part of our App's process intended for MagicLeap
 
 ## Build Steps
 ### WebAR App
