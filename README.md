@@ -6,8 +6,12 @@ SpaceChanger is a WebAR utility to help with home renovation. Users can visualiz
 
 SpaceChange is open source and hosted on GitHub:
 
-React Native ARKit app for creating rooms (RN-AR branch)
-WebXR App For Viewing rooms (master branch)
+[React Native ARKit app for creating rooms (RN-AR branch)] - https://github.com/code-matt/spacechangers/tree/RN-AR
+
+[WebXR App For Viewing rooms (master branch)] - https://github.com/code-matt/spacechangers/edit/master/
+
+## NOTE BELOw!
+( Different git histories to see on branches above because of very late project tech pivot to ARKit !!)
 
 ## Usage
 
