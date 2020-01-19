@@ -25,11 +25,21 @@
 // ?????
 
 import React, {Component} from 'react';
-import {StyleSheet, Dimensions, StatusBar, Button} from 'react-native';
+import {
+  StyleSheet,
+  Dimensions,
+  StatusBar,
+  Button,
+  FlatList,
+  Vibration
+} from 'react-native';
 import {View, Text} from 'react-native';
 import DropdownAlert from 'react-native-dropdownalert';
 import _ from 'lodash';
 import {ARKit} from 'react-native-arkit';
+import SlidingUpPanel from 'rn-sliding-up-panel';
+
+const {height} = Dimensions.get('window');
 
 export default class App extends Component {
   constructor(props) {
@@ -50,15 +60,28 @@ export default class App extends Component {
   };
 
   beginAddingSurface = () => {
-    this.setState({
-      addingNewSurface: true,
-      newSurfacePoints: {
-        topLeft: null,
-        topRight: null,
-        bottomLeft: null,
-        bottomRight: null,
+    this.setState(
+      {
+        addingNewSurface: true,
+        newSurfacePoints: {
+          topLeft: null,
+          topRight: null,
+          bottomLeft: null,
+          bottomRight: null,
+        },
+        currentPointIndex: 0,
       },
-    });
+      () => {
+        this.dropDownAlertRef.alertWithType(
+          'info',
+          'Add Corner Point',
+          'Tap the top left corner of the surface',
+          {},
+          1300,
+        );
+        Vibration.vibrate(700);
+      },
+    );
   };
 
   addSurfacePoint = (hitPosition, cornerName) => {
@@ -95,15 +118,60 @@ export default class App extends Component {
     );
   };
 
+  renderSurfacesList = () => {
+    <FlatList
+      data={_.map(this.state.surfaces, ({name, position}, surfaceName) => {
+        return {
+          name,
+          position,
+        };
+      })}
+      renderItem={({item}) => (
+        <SurfaceListItem title={item.name} found={item.position} />
+      )}
+      keyExtractor={item => item.name}
+    />;
+  };
+
+  renderSurfacesList = () => {
+    <FlatList
+      data={_.map(this.state.surfaces, ({name, position}, surfaceName) => {
+        return {
+          name,
+          position,
+        };
+      })}
+      renderItem={({item}) => (
+        <SurfaceListItem title={item.name} found={item.position} />
+      )}
+      keyExtractor={item => item.name}
+    />;
+  };
+
   renderSurfacesListOrCancel = () => {
     const {addingNewSurface} = this.state;
 
     if (!addingNewSurface) {
       return (
-        <>
-          <Button onPress={this.beginAddingSurface} title="Add Surface" />
-          <Text>Surfaces List</Text>
-        </>
+        <SlidingUpPanel
+          ref={c => (this._panel = c)}
+          draggableRange={{top: height / 1.75, bottom: 90}}
+          animatedValue={this._draggedValue}
+          showBackdrop={false}>
+          <View style={styles.panel}>
+            <View style={styles.panelHeader}>
+              <Button onPress={this.beginAddingSurface} title="Add Surface" />
+            </View>
+            <View style={styles.contentContainer}>
+              <View style={styles.surfacesHeaderContainer}>
+                <Text style={styles.surfacesHeader}>Surfaces</Text>
+              </View>
+              <View style={styles.surfacesListArea}>
+                {this.renderSurfacesList()}
+              </View>
+            </View>
+          </View>
+        </SlidingUpPanel>
       );
     } else {
       return (
@@ -154,6 +222,15 @@ export default class App extends Component {
   }
 }
 
+function SurfaceListItem({title, found}) {
+  return (
+    <View style={styles.item}>
+      <Text>{title}</Text>
+      {/* render a button that when pressed brings up a modal to change the surfaces texture */}
+    </View>
+  );
+}
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -165,4 +242,9 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingVertical: 20,
   },
+  panel: {},
+  panelHeader: {},
+  contentContainer: {},
+  surfacesHeaderContainer: {},
+  surfacesHeader: {},
 });
