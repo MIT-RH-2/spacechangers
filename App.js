@@ -32,6 +32,7 @@ import {
   Button,
   FlatList,
   Vibration,
+  Alert
 } from 'react-native';
 import {View, Text} from 'react-native';
 import DropdownAlert from 'react-native-dropdownalert';
@@ -56,6 +57,15 @@ export default class App extends Component {
       addingNewSurface: false,
     };
   }
+
+  renderPicker = () => {
+    return (
+      <ColorPicker
+        onColorSelected={color => Alert.alert(`Color selected: ${color}`)}
+        style={{flex: 1}}
+      />
+    );
+  };
 
   addSurface = points => {
     let stateCopy = this.state.surfaces.concat([]);
@@ -370,10 +380,14 @@ export default class App extends Component {
   }
 }
 
-function SurfaceListItem({title}) {
+function SurfaceListItem({title, parent}) {
   return (
     <View style={styles.item}>
       <Text>{title}</Text>
+      <ColorPicker
+        onColorSelected={color => Alert.alert(`Color selected: ${color}`)}
+        style={{flex: 1}}
+      />
       {/* render a button that when pressed brings up a modal to change the surfaces texture */}
     </View>
   );
