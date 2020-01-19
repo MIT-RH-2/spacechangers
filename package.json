@@ -12,13 +12,16 @@
   "dependencies": {
     "awesome-debounce-promise": "^2.1.0",
     "lodash": "^4.17.15",
+    "mathjs": "^6.5.0",
     "react": "16.9.0",
     "react-native": "0.61.5",
     "react-native-arkit": "git+ssh://git@github.com/code-matt/react-native-arkit.git",
+    "react-native-color-picker": "^0.4.6",
     "react-native-dropdownalert": "^4.2.1",
     "react-native-splash-screen": "^3.2.0",
     "react-native-svg": "^11.0.1",
-    "rn-sliding-up-panel": "^2.4.0"
+    "rn-sliding-up-panel": "^2.4.0",
+    "three": "^0.112.1"
   },
   "devDependencies": {
     "@babel/core": "7.8.3",

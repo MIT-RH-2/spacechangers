@@ -39,6 +39,9 @@ import _ from 'lodash';
 import {ARKit} from 'react-native-arkit';
 import SlidingUpPanel from 'rn-sliding-up-panel';
 import ADP from 'awesome-debounce-promise';
+import {ColorPicker} from 'react-native-color-picker';
+
+var THREE = require('three');
 
 const {height} = Dimensions.get('window');
 const points = ['topLeft', 'bottomLeft', 'topRight', 'bottomRight'];
@@ -46,6 +49,7 @@ const points = ['topLeft', 'bottomLeft', 'topRight', 'bottomRight'];
 export default class App extends Component {
   constructor(props) {
     super(props);
+    console.disableYellowBox = true;
     this.state = {
       message: props.message,
       surfaces: [],
@@ -135,14 +139,64 @@ export default class App extends Component {
         },
       );
     } else {
-      this.finishAddingSurface();
+      this.setState(
+        {
+          newSurfacePoints: {
+            ...this.state.newSurfacePoints,
+            [points[currentPointIndex]]: position,
+          },
+        },
+        () => {
+          this.finishAddingSurface();
+        },
+      );
     }
   }, 1000);
 
-  finishAddingSurface = () => {
-    // todo take the 4 points and add a surface to state
+  finishAddingSurface = async () => {
+    const {
+      newSurfacePoints: {topLeft, bottomLeft, topRight, bottomRight},
+    } = this.state;
+
+    // todo take the 4 points and add a surface to state.. this is center point
+    const cx = (topLeft.x + bottomLeft.x + topRight.x + bottomRight.x) / 4;
+    const cy = (topLeft.y + bottomLeft.y + topRight.y + bottomRight.y) / 4;
+    const cz = (topLeft.z + bottomLeft.z + topRight.z + bottomRight.z) / 4;
+
+    // find the euler angles for the surface
+
+    var quat = new THREE.Quaternion();
+
+    threePointsToEuler(
+      new THREE.Vector3(topLeft.x, topLeft.y, topLeft.z),
+      new THREE.Vector3(bottomLeft.x, bottomLeft.y, bottomLeft.z),
+      new THREE.Vector3(topRight.x, topRight.y, topRight.z),
+      quat,
+    );
+
+    var m = new THREE.Matrix4();
+    var eu = new THREE.Euler();
+    eu.setFromRotationMatrix(m, 'XYZ');
+    m.makeRotationFromQuaternion(quat);
+
+    const euX = toReal(toAngle(eu.toArray()[0]));
+    const euY = toReal(toAngle(eu.toArray()[1]));
+    const euZ = toReal(toAngle(eu.toArray()[2]));
+    console.log(`euX: ${euX}, euY: ${euY}, euZ: ${euZ}`);
+    const newSurface = {
+      position: {x: cx, y: cy, z: cz},
+      size: {
+        width: topLeft.x - topRight.x,
+        height: topLeft.y - bottomLeft.y,
+      },
+      eulerAngle: {x: euX, y: euY, z: euZ},
+      texture: '',
+    };
+    let stateCopy = this.state.surfaces;
+    stateCopy.push(newSurface);
     this.setState(
       {
+        surfaces: stateCopy,
         addingNewSurface: false,
         newSurfacePoints: {
           topLeft: null,
@@ -164,7 +218,7 @@ export default class App extends Component {
     );
   };
 
-  renderTestPoint = (position) => {
+  renderTestPoint = position => {
     return (
       <ARKit.Sphere
         position={this.state.newSurfacePoints[position]}
@@ -189,18 +243,21 @@ export default class App extends Component {
   };
 
   renderSurfacesList = () => {
-    <FlatList
-      data={_.map(this.state.surfaces, ({name, position}, surfaceName) => {
-        return {
-          name,
-          position,
-        };
-      })}
-      renderItem={({item}) => (
-        <SurfaceListItem title={item.name} found={item.position} />
-      )}
-      keyExtractor={item => item.name}
-    />;
+    return (
+      <FlatList
+        data={_.map(this.state.surfaces, ({name, position}, index) => {
+          return {
+            name,
+            position,
+            index,
+          };
+        })}
+        renderItem={({item}) => (
+          <SurfaceListItem title={`Surface ${item.index}`} />
+        )}
+        keyExtractor={item => item.id}
+      />
+    );
   };
 
   renderSurfacesListOrCancel = () => {
@@ -248,6 +305,27 @@ export default class App extends Component {
     }
   };
 
+  renderQuads = () => {
+    return this.state.surfaces.map(s => {
+      return (
+        <ARKit.Plane
+          position={s.position}
+          shape={{width: s.size.width, height: s.size.height}}
+          eulerAngles={{
+            x: s.eulerAngle.x || 0,
+            y: s.eulerAngle.y || 0,
+            z: s.eulerAngle.z || 0,
+          }}
+          material={{
+            diffuse: {
+              color: 'red',
+            },
+          }}
+        />
+      );
+    });
+  };
+
   render() {
     return (
       <View style={{flex: 1}}>
@@ -269,7 +347,7 @@ export default class App extends Component {
               this.state.newSurfacePoints.topLeft &&
               this.renderTestPoint('topLeft')}
             {this.state.addingNewSurface &&
-              this.state.newSurfacePoints.bottomLEft &&
+              this.state.newSurfacePoints.bottomLeft &&
               this.renderTestPoint('bottomLeft')}
             {this.state.addingNewSurface &&
               this.state.newSurfacePoints.topRight &&
@@ -277,7 +355,13 @@ export default class App extends Component {
             {this.state.addingNewSurface &&
               this.state.newSurfacePoints.bottomRight &&
               this.renderTestPoint('bottomRight')}
+            {this.renderQuads()}
           </ARKit>
+          <ARKit.Light
+            position={{x: 1, y: 3, z: 1}}
+            type={ARKit.LightType.Ambient}
+            color="white"
+          />
         </View>
         {this.renderSurfacesListOrCancel()}
         <DropdownAlert ref={ref => (this.dropDownAlertRef = ref)} />
@@ -286,7 +370,7 @@ export default class App extends Component {
   }
 }
 
-function SurfaceListItem({title, found}) {
+function SurfaceListItem({title}) {
   return (
     <View style={styles.item}>
       <Text>{title}</Text>
@@ -306,9 +390,50 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingVertical: 20,
   },
-  panel: {},
-  panelHeader: {},
-  contentContainer: {},
-  surfacesHeaderContainer: {},
-  surfacesHeader: {},
+  panel: {
+    backgroundColor: 'white',
+    flex: 1,
+  },
+  panelHeader: {
+    justifyContent: 'center',
+  },
+  contentContainer: {
+    backgroundColor: 'white',
+  },
+  surfacesHeaderContainer: {
+    backgroundColor: 'white',
+  },
+  surfacesHeader: {
+    backgroundColor: 'white',
+  },
 });
+
+function toReal(x) {
+  if (!isNaN(parseFloat(x)) && isFinite(parseFloat(x))) {
+    return parseFloat(parseFloat(x).toFixed(7));
+  } else {
+    return x;
+  }
+}
+
+function toAngle(x) {
+  const wantRadians = true;
+  if (wantRadians) {
+    return (x * 180) / Math.PI;
+  } else {
+    return x;
+  }
+}
+
+const threePointsToEuler = (P, Q, R, quat) => {
+  var m = new THREE.Matrix4();
+  var x = new THREE.Vector3();
+  var y = new THREE.Vector3();
+  var z = new THREE.Vector3();
+  x.subVectors(Q, P).normalize();
+  y.subVectors(R, P);
+  z.crossVectors(x, y).normalize();
+  y.crossVectors(z, x).normalize();
+  m.set(x.x, y.x, z.x, 1, x.y, y.y, z.y, 1, x.z, y.z, z.z, 1, 0, 0, 0, 1);
+  quat.setFromRotationMatrix(m);
+};

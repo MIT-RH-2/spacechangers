@@ -13,6 +13,11 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		52AD419923D419F700584532 /* PocketSVG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AD419523D4181100584532 /* PocketSVG.framework */; };
 		52AD419A23D419F700584532 /* PocketSVG.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52AD419523D4181100584532 /* PocketSVG.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52AD41A123D4C62E00584532 /* concrete-floor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AD419C23D4C62D00584532 /* concrete-floor.jpg */; };
+		52AD41A223D4C62E00584532 /* wood_old_0038_01_s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AD419D23D4C62D00584532 /* wood_old_0038_01_s.jpg */; };
+		52AD41A323D4C62E00584532 /* dark-wood-floor_half.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AD419E23D4C62D00584532 /* dark-wood-floor_half.jpg */; };
+		52AD41A423D4C62E00584532 /* plaster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AD419F23D4C62D00584532 /* plaster.jpg */; };
+		52AD41A523D4C62E00584532 /* classic_wall_texture_half.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AD41A023D4C62E00584532 /* classic_wall_texture_half.jpg */; };
 		AA68CA13169A66E1C5A73A96 /* libPods-spacechangers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11AF602D6112C144B7EA2976 /* libPods-spacechangers.a */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +69,11 @@
 		2D2E41C93966C202B82C4E4E /* Pods-spacechangers-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spacechangers-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-spacechangers-tvOS/Pods-spacechangers-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		37C658618C6ABEBEDD666A65 /* Pods-spacechangers-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spacechangers-tvOS.release.xcconfig"; path = "Target Support Files/Pods-spacechangers-tvOS/Pods-spacechangers-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		52AD418F23D4181100584532 /* PocketSVG.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PocketSVG.xcodeproj; path = "../node_modules/react-native-arkit/ios/PocketSVG/PocketSVG.xcodeproj"; sourceTree = "<group>"; };
+		52AD419C23D4C62D00584532 /* concrete-floor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "concrete-floor.jpg"; sourceTree = "<group>"; };
+		52AD419D23D4C62D00584532 /* wood_old_0038_01_s.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood_old_0038_01_s.jpg; sourceTree = "<group>"; };
+		52AD419E23D4C62D00584532 /* dark-wood-floor_half.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dark-wood-floor_half.jpg"; sourceTree = "<group>"; };
+		52AD419F23D4C62D00584532 /* plaster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plaster.jpg; sourceTree = "<group>"; };
+		52AD41A023D4C62E00584532 /* classic_wall_texture_half.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = classic_wall_texture_half.jpg; sourceTree = "<group>"; };
 		6E30D52D7FEE614D255320EC /* Pods-spacechangersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spacechangersTests.release.xcconfig"; path = "Target Support Files/Pods-spacechangersTests/Pods-spacechangersTests.release.xcconfig"; sourceTree = "<group>"; };
 		77FF32AB05BEB0E52377DCC1 /* libPods-spacechangers-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-spacechangers-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC53F414114280AB32CD0E0 /* libPods-spacechangers-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-spacechangers-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +162,11 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				52AD41A023D4C62E00584532 /* classic_wall_texture_half.jpg */,
+				52AD419C23D4C62D00584532 /* concrete-floor.jpg */,
+				52AD419E23D4C62D00584532 /* dark-wood-floor_half.jpg */,
+				52AD419F23D4C62D00584532 /* plaster.jpg */,
+				52AD419D23D4C62D00584532 /* wood_old_0038_01_s.jpg */,
 				13B07FAE1A68108700A75B9A /* spacechangers */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* spacechangersTests */,
@@ -272,6 +287,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52AD41A123D4C62E00584532 /* concrete-floor.jpg in Resources */,
+				52AD41A223D4C62E00584532 /* wood_old_0038_01_s.jpg in Resources */,
+				52AD41A323D4C62E00584532 /* dark-wood-floor_half.jpg in Resources */,
+				52AD41A423D4C62E00584532 /* plaster.jpg in Resources */,
+				52AD41A523D4C62E00584532 /* classic_wall_texture_half.jpg in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
