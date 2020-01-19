@@ -31,15 +31,17 @@ import {
   StatusBar,
   Button,
   FlatList,
-  Vibration
+  Vibration,
 } from 'react-native';
 import {View, Text} from 'react-native';
 import DropdownAlert from 'react-native-dropdownalert';
 import _ from 'lodash';
 import {ARKit} from 'react-native-arkit';
 import SlidingUpPanel from 'rn-sliding-up-panel';
+import ADP from 'awesome-debounce-promise';
 
 const {height} = Dimensions.get('window');
+const points = ['topLeft', 'bottomLeft', 'topRight', 'bottomRight'];
 
 export default class App extends Component {
   constructor(props) {
@@ -98,21 +100,74 @@ export default class App extends Component {
   }
 
   hitTestPlanes = async location => {
-    let {addingNewSurface} = this.state;
+    let {addingNewSurface, currentPointIndex} = this.state;
     const hits = await ARKit.hitTestPlanes(location, 1);
-    if (addingNewSurface) {
-      this.setState({
-        newSurfacePoints: {
-          topLeft: hits.results[0].position,
-        },
-      });
+    if (hits.results && hits.results.length) {
+      if (addingNewSurface) {
+        this.addNewPoint(hits.results[0].position);
+      }
     }
   };
 
-  renderTestPoint = () => {
+  addNewPoint = ADP(position => {
+    let {currentPointIndex} = this.state;
+
+    if (currentPointIndex < 3) {
+      this.setState(
+        {
+          newSurfacePoints: {
+            ...this.state.newSurfacePoints,
+            [points[currentPointIndex]]: position,
+          },
+          currentPointIndex: currentPointIndex + 1,
+        },
+        () => {
+          this.dropDownAlertRef.alertWithType(
+            'info',
+            'Add Corner Point',
+            `Tap the ${
+              points[this.state.currentPointIndex]
+            } corner of the surface`,
+            {},
+            1300,
+          );
+          Vibration.vibrate(700);
+        },
+      );
+    } else {
+      this.finishAddingSurface();
+    }
+  }, 1000);
+
+  finishAddingSurface = () => {
+    // todo take the 4 points and add a surface to state
+    this.setState(
+      {
+        addingNewSurface: false,
+        newSurfacePoints: {
+          topLeft: null,
+          topRight: null,
+          bottomLeft: null,
+          bottomRight: null,
+        },
+      },
+      () => {
+        this.dropDownAlertRef.alertWithType(
+          'success',
+          'Surface Added',
+          'New surface added',
+          {},
+          1300,
+        );
+        Vibration.vibrate(1100);
+      },
+    );
+  };
+
+  renderTestPoint = (position) => {
     return (
       <ARKit.Sphere
-        position={this.state.newSurfacePoints.topLeft}
+        position={this.state.newSurfacePoints[position]}
         shape={{radius: 0.0075}}
       />
     );
@@ -212,7 +267,16 @@ export default class App extends Component {
           >
             {this.state.addingNewSurface &&
               this.state.newSurfacePoints.topLeft &&
-              this.renderTestPoint()}
+              this.renderTestPoint('topLeft')}
+            {this.state.addingNewSurface &&
+              this.state.newSurfacePoints.bottomLEft &&
+              this.renderTestPoint('bottomLeft')}
+            {this.state.addingNewSurface &&
+              this.state.newSurfacePoints.topRight &&
+              this.renderTestPoint('topRight')}
+            {this.state.addingNewSurface &&
+              this.state.newSurfacePoints.bottomRight &&
+              this.renderTestPoint('bottomRight')}
           </ARKit>
         </View>
         {this.renderSurfacesListOrCancel()}
