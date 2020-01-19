@@ -1,4 +1,3 @@
-
 // Converts from radians to degrees.
 var radiansToDegrees = function(radians) {
     return radians * 180 / Math.PI;
