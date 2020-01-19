@@ -32,7 +32,7 @@ import {
   Button,
   FlatList,
   Vibration,
-  Alert
+  Alert,
 } from 'react-native';
 import {View, Text} from 'react-native';
 import DropdownAlert from 'react-native-dropdownalert';
@@ -40,11 +40,11 @@ import _ from 'lodash';
 import {ARKit} from 'react-native-arkit';
 import SlidingUpPanel from 'rn-sliding-up-panel';
 import ADP from 'awesome-debounce-promise';
-import {ColorPicker} from 'react-native-color-picker';
+import {ColorPicker, toHsv, fromHsv} from 'react-native-color-picker';
 
 var THREE = require('three');
 
-const {height} = Dimensions.get('window');
+const {height, width} = Dimensions.get('window');
 const points = ['topLeft', 'bottomLeft', 'topRight', 'bottomRight'];
 
 export default class App extends Component {
@@ -57,15 +57,6 @@ export default class App extends Component {
       addingNewSurface: false,
     };
   }
-
-  renderPicker = () => {
-    return (
-      <ColorPicker
-        onColorSelected={color => Alert.alert(`Color selected: ${color}`)}
-        style={{flex: 1}}
-      />
-    );
-  };
 
   addSurface = points => {
     let stateCopy = this.state.surfaces.concat([]);
@@ -121,6 +112,14 @@ export default class App extends Component {
         this.addNewPoint(hits.results[0].position);
       }
     }
+  };
+
+  changeSurfaceColor = (index, color) => {
+    let stateCopy = this.state.surfaces;
+    stateCopy[index].color = color;
+    this.setState({
+      surfaces: stateCopy,
+    });
   };
 
   addNewPoint = ADP(position => {
@@ -201,6 +200,7 @@ export default class App extends Component {
       },
       eulerAngle: {x: euX, y: euY, z: euZ},
       texture: '',
+      color: 'red',
     };
     let stateCopy = this.state.surfaces;
     stateCopy.push(newSurface);
@@ -238,21 +238,6 @@ export default class App extends Component {
   };
 
   renderSurfacesList = () => {
-    <FlatList
-      data={_.map(this.state.surfaces, ({name, position}, surfaceName) => {
-        return {
-          name,
-          position,
-        };
-      })}
-      renderItem={({item}) => (
-        <SurfaceListItem title={item.name} found={item.position} />
-      )}
-      keyExtractor={item => item.name}
-    />;
-  };
-
-  renderSurfacesList = () => {
     return (
       <FlatList
         data={_.map(this.state.surfaces, ({name, position}, index) => {
@@ -263,7 +248,11 @@ export default class App extends Component {
           };
         })}
         renderItem={({item}) => (
-          <SurfaceListItem title={`Surface ${item.index}`} />
+          <SurfaceListItem
+            title={`Surface ${item.index}`}
+            index={item.index}
+            parent={this}
+          />
         )}
         keyExtractor={item => item.id}
       />
@@ -328,7 +317,7 @@ export default class App extends Component {
           }}
           material={{
             diffuse: {
-              color: 'red',
+              color: s.color,
             },
           }}
         />
@@ -372,6 +361,16 @@ export default class App extends Component {
             type={ARKit.LightType.Ambient}
             color="white"
           />
+          <ARKit.Light
+            position={{x: 1, y: -3, z: -3}}
+            type={ARKit.LightType.Ambient}
+            color="white"
+          />
+          <ARKit.Light
+            position={{x: -2, y: 1, z: 1}}
+            type={ARKit.LightType.Ambient}
+            color="white"
+          />
         </View>
         {this.renderSurfacesListOrCancel()}
         <DropdownAlert ref={ref => (this.dropDownAlertRef = ref)} />
@@ -380,13 +379,16 @@ export default class App extends Component {
   }
 }
 
-function SurfaceListItem({title, parent}) {
+function SurfaceListItem({title, parent, index}) {
   return (
     <View style={styles.item}>
       <Text>{title}</Text>
       <ColorPicker
-        onColorSelected={color => Alert.alert(`Color selected: ${color}`)}
-        style={{flex: 1}}
+        color={toHsv(parent.state.surfaces[index].color)}
+        onColorChange={color => {
+          parent.changeSurfaceColor(index, fromHsv(color))
+        }}
+        style={{width: 100, height: 100}}
       />
       {/* render a button that when pressed brings up a modal to change the surfaces texture */}
     </View>
