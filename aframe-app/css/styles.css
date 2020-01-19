@@ -100,7 +100,7 @@ a:hover {
   max-width: 100%;
   display: inline-block; }
 
-#enterBtn {
+/*#enterBtn {
   display: none;
   width: 120px;
   height: 60px;
@@ -112,3 +112,4 @@ a:hover {
   #enterBtn:hover {
     background-color: #fff;
     text-decoration: none; }
+*/

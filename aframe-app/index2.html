@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>SpaceChangers Demo</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="SpaceChangers Demo">
+    <meta name="apple-mobile-web-app-capable" />
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v3.12.3/dist/aframe-extras.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/webvr-polyfill@latest/build/webvr-polyfill.js"></script>
+    <!--build:css css/styles.min.css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- endbuild -->
+    <!--build:js js/main.min.js -->
+    <script src="js/aframe-gui.js"></script>
+    <script src="js/script.js"></script>
+    <!-- endbuild -->
+</head>
+
+<body>
+    <a-scene auto-enter-vr>
+        <a-assets>
+            <img id="sky" src="assets/stars.jpg">
+            <img id="teamThumbnail" src="assets/team.jpg">
+            <img id="3dofThumbnail" src="assets/equirectangular.jpg">
+            <!--<a-mixin id="grid" geometry="primitive:plane; width: 25; height: 25" rotation="-90 0 0" material="src:assets/grid.png; repeat:25 25; transparent:true;" ></a-mixin>-->
+
+        </a-assets>
+
+        <!--<a-entity link="href: team.html; title: SPACECHANGERS Team; image: #teamThumbnail"
+            position="-5 1 -1"
+            rotation="0 90 0 "
+        ></a-entity>
+
+        <a-entity link="href: 3dof.html; title: Room; image: #3dofThumbnail"
+            position="5 1 -1"
+            rotation="0 -90 0 "
+        ></a-entity>-->
+
+        <a-entity id="wall_left"
+            geometry="primitive:box; height:4; width:0.05; depth:30;"
+            material="color:#666;"
+            position="-2 0.75 -4"
+        >             
+        </a-entity>
+        <a-entity id="wall_right"
+            geometry="primitive:box; height:4; width:0.05; depth:30;"
+            material="color:#666;"
+            position="2 0.75 -4"
+        >
+        </a-entity>
+        <a-entity id="wall_front"
+            geometry="primitive:box; height:4; width:0.05; depth:5;"
+            material="color:#666;"
+            position="0 0.75 -18"
+            rotation="0 90 0"
+        >
+        </a-entity> 
+        <a-entity id="wall_back"
+            geometry="primitive:box; height:4; width:0.05; depth:5;"
+            material="color:#666;"
+            position="0 0.75 10"
+            rotation="0 90 0"
+        >
+        </a-entity>
+
+        <a-entity id="floor"
+            geometry="primitive:box; height:4; width:0.05; depth:30;"
+            material="color:#666;"
+            position="0 -0.75 -5"
+            rotation="0 0 90"
+        >
+        </a-entity>
+
+        <a-entity id="ceiling" gui-interactable="clickAction:test" gui-item=""
+            geometry="primitive:box; height:4; width:0.05; depth:30;"
+            material="color:#566;"
+            position="0 2.75 -5"
+            rotation="0 0 90"
+        >
+        </a-entity>
+
+        <!-- Items -->
+        <!--<a-entity gui-interactable="clickAction:test" gui-item="" product="texture:ceres.jpg; specs:unlivable; productName:Ceres;" position="1.65 1.4 -1.75"
+        ></a-entity> 
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:earth.jpg; specs:livable; productName:Earth;" position="1.65 1.4 -2.75"
+        ></a-entity> 
+         <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:venus.jpg; specs:planet, unlivable; productName:Venus;" position="1.65 1.4 -3.75"
+        ></a-entity>
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:eris.jpg; specs:unlivable; productName:Eris;" position="1.65 1.4 -4.75"
+        ></a-entity>
+         <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:haumea.jpg; specs:unlivable; productName:Haumea;" position="1.65 1.4 -5.75"
+        ></a-entity>
+
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:mercury.jpg; specs:planet, unlivable; productName:Mercury;" position="1.35 0.85 -1.75"
+        ></a-entity> 
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:moon.jpg; specs:satelite, potentially livable; productName:Moon;" position="1.35 0.85 -2.75"
+        ></a-entity> 
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:neptune.jpg; specs:planet, unlivable; productName:Neptune;" position="1.35 0.85 -3.75"
+        ></a-entity>
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:saturn.jpg; specs:planet, unlivable; productName:Saturn;" position="1.35 0.85 -4.75"
+        ><a-ring radius-inner="0.215" radius-outer="0.24" color="#fff" material="opacity:0.75" rotation="30 30 0"></a-ring>
+        </a-entity>
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:sun.jpg; specs:unlivable and very hot; productName:Sun;" position="1.35 0.85 -5.75"
+        ></a-entity>
+ 
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:earth.jpg; specs:planet, livable; productName:Earth;" position="2.35 1.4 -1.75"
+        ></a-entity> 
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:eris.jpg; specs:unlivable; productName:Eris;" position="2.35 1.4 -2.75"
+        ></a-entity> 
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:mars.jpg; specs:planet, soon to be livable; productName:Mars;" position="2.35 1.4 -3.75"
+        ></a-entity>
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:mercury.jpg; specs:planet, unlivable; productName:Mercury;" position="2.35 1.4 -4.75"
+        ></a-entity>
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:haumea.jpg; specs:dwarf planet, unlivable; productName:Haumea;" position="2.35 1.4 -5.75"
+        ></a-entity>
+
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:neptune.jpg; specs:planet, unlivable; productName:Neptune;" position="2.65 0.85 -1.75"
+        ></a-entity> 
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:venus.jpg; specs:planet, unlivable; productName:Venus;" position="2.65 0.85 -2.75"
+        ></a-entity> 
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:saturn.jpg; specs:palnet, unlivable; productName:Saturn;" position="2.65 0.85 -3.75"
+        ><a-ring radius-inner="0.215" radius-outer="0.24" color="#fff" material="opacity:0.75" rotation="30 30 0"></a-ring></a-entity>
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:exo.jpeg; specs:exoplanet, livable; productName:Exo;" position="2.65 0.85 -4.75"
+        ></a-entity>
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:eris.jpg; specs:dwarf planet, unlivable; productName:Eris;" position="2.65 0.85 -5.75"
+        ></a-entity>
+
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:venus.jpg; specs:planet, unlivable; productName:Venus;" position="-1.65 1.4 -1.75"
+        ></a-entity> 
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:moon.jpg; specs:satelite, potentially livable; productName:Moon;" position="-1.65 1.4 -2.75"
+        ></a-entity> 
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:mars.jpg; specs:planet, soon to be livable; productName:Mars;" position="-1.65 1.4 -3.75"
+        ></a-entity>
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:exo.jpeg; specs:exoplanet, livable; productName:Exoplanet;" position="-1.65 1.4 -4.75"
+        ></a-entity>
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:venus.jpg; specs:unlivable; productName:Venus;" position="-1.65 1.4 -5.75"
+        ></a-entity>
+
+		<a-entity gui-interactable="clickAction:test" gui-item="" product="texture:neptune.jpg; specs:planet, unlivable; productName:Neptune;" position="-1.35 0.85 -1.75"
+        ></a-entity> 
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:mars.jpg; specs:planet, unlivable; productName:Mars;" position="-1.35 0.85 -2.75"
+        ></a-entity> 
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:saturn.jpg; specs:palnet, soon to be livable; productName:Saturn;" position="-1.35 0.85 -3.75"
+        ><a-ring radius-inner="0.215" radius-outer="0.24" color="#fff" material="opacity:0.75" rotation="30 30 0"></a-ring></a-entity>
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:earth.jpg; specs:planet, livable; productName:Earth;" position="-1.35 0.85 -4.75"
+        ></a-entity>
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:eris.jpg; specs:dwarf planet, unlivable; productName:Eris;" position="-1.35 0.85 -5.75"
+        ></a-entity>
+
+		<a-entity gui-interactable="clickAction:test" gui-item="" product="texture:earth.jpg; specs:planet, livable; productName:Earth;" position="-1.65 1.4 -1.75"
+        ></a-entity> 
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:eris.jpg; specs:unlivable; productName:Eris;" position="-1.65 1.4 -2.75"
+        ></a-entity> 
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:venus.jpg; specs:planet, unlivable; productName:Venus;" position="-1.65 1.4 -3.75"
+        ></a-entity>
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:mercury.jpg; specs:planet, unlivable; productName:Mercury;" position="-1.65 1.4 -4.75"
+        ></a-entity>
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:haumea.jpg; specs:dwarf planet, unlivable; productName:Haumea;" position="-1.65 1.4 -5.75"
+        ></a-entity>
+        
+ 		<a-entity gui-interactable="clickAction:test" gui-item="" product="texture:mercury.jpg; specs:planet, unlivable; productName:Mercury;" position="-2.65 0.85 -1.75"
+        ></a-entity> 
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:moon.jpg; specs:satelite, potentially livable; productName:Moon;" position="-2.65 0.85 -2.75"
+        ></a-entity> 
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:neptune.jpg; specs:planet, unlivable; productName:Neptune;" position="-2.65 0.85 -3.75"
+        ></a-entity>
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:saturn.jpg; specs:planet, unlivable; productName:Saturn;" position="-2.65 0.85 -4.75"
+        ><a-ring radius-inner="0.215" radius-outer="0.24" color="#fff" material="opacity:0.75" rotation="30 30 0"></a-ring>
+        </a-entity>
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:sun.jpg; specs:unlivable; productName:Sun;" position="-2.65 0.85 -5.75"
+        ></a-entity>
+        
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:ceres.jpg; specs:dwarf planet, potentially livable; productName:Ceres;" position="-2.35 1.4 -1.75"
+        ></a-entity> 
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:earth.jpg; specs:planet, very livable; productName:Earth;" position="-2.35 1.4 -2.75"
+        ></a-entity> 
+         <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:venus.jpg; specs:planet, unlivable; productName:Venus;" position="-2.35 1.4 -3.75"
+        ></a-entity>
+        <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:eris.jpg; specs:dwarf planet, unlivable; productName:Eris;" position="-2.35 1.4 -4.75"
+        ></a-entity>
+         <a-entity gui-interactable="clickAction:test" gui-item="" product="texture:haumea.jpg; specs:dwarf planet, unlivable; productName:Haumea;" position="-2.35 1.4 -5.75"
+        ></a-entity>-->
+        <!-- end Items -->
+        <!-- Grid -->
+        <a-sky material="shader:flat; color:#fff; src:#sky"></a-sky>
+        <!--<a-torus color="#fff" radius="20" radius-tubular="0.1" scale="1 1 3" rotation="45 45 0"></a-torus>
+        <a-torus color="#fff" radius="20" radius-tubular="0.1" scale="1 1 3" rotation="90 90 0"></a-torus>
+        <a-torus color="#fff" radius="20" radius-tubular="0.1" scale="1 1 3" rotation="135 135 0"></a-torus>
+        <a-torus color="#fff" radius="20" radius-tubular="0.1" scale="1 1 3" rotation="180 180 0"></a-torus>-->
+        <a-entity text="font: monoid; value:WELCOME TO SPACECHANGERS DEMO; align:center" scale="5 5 5" position="0 1.75 -1.5"></a-entity>
+
+        <a-light type="directional" color="#BCC6CD" intensity="1" position="-2 3 1"></a-light>
+        <a-light type="ambient" color="#888"></a-light>
+        <!-- Checkpoints -->
+        <a-entity position="0 0 0">
+            <a-cylinder checkpoint="offset: 0 1.6 0" radius="0" height="0" position="0 0 -4">
+                <a-ring radius-inner="0.25" radius-outer="0.275" color="#09FFFF" rotation="-90 0 0" position="0 0.15 0"></a-ring>
+            </a-cylinder>
+            <a-cylinder checkpoint="offset: 0 1.6 0" radius="0" height="0" position="1.75 0 0">
+                <a-ring radius-inner="0.25" radius-outer="0.275" color="#09FFFF" rotation="0 -90 0" position="-0.15 0.15 0.15"></a-ring>
+            </a-cylinder>
+            <a-cylinder checkpoint="offset: 0 1.6 0" radius="0" height="0" position="-1.75 0 0" color="#666">
+                <a-ring radius-inner="0.25" radius-outer="0.275" color="#09FFFF" rotation="0 90 0" position="0.15 0.15 0.15"></a-ring>
+            </a-cylinder>
+            <a-cylinder checkpoint="offset: 0 1.6 0" radius="0" height="0" position="4 0 -4" color="#666">
+                <a-ring radius-inner="0.25" radius-outer="0.275" color="#09FFFF" rotation="-90 0 0" position="0 0.15 0"></a-ring>
+            </a-cylinder>
+            <a-cylinder checkpoint="offset: 0 1.6 0" radius="0" height="0" position="-4 0 -4" color="#666">
+                <a-ring radius-inner="0.25" radius-outer="0.275" color="#09FFFF" rotation="-90 0 0" position="0 0.15 0"></a-ring>
+            </a-cylinder>
+        </a-entity>
+
+        <!--<a-entity mixin="grid"></a-entity>-->
+
+
+        <!-- Camera + cursor. -->
+        <a-entity camera="userHeight: 1"
+            universal-controls="movementControls: checkpoint"
+            checkpoint-controls="mode: animate"
+            look-controls=""
+            wasd-controls>
+            <a-gui-cursor id="cursor"
+                raycaster="interval: 1000; objects: [gui-interactable], [checkpoint], [link]"
+                fuse="false" fuseTimeout="2000"
+                design="reticle"
+            >
+            </a-gui-cursor> <!-- /cursor -->
+        </a-entity> <!-- /camera -->
+
+    <a-entity checkout="pitch: -0.7;"></a-entity>
+
+    <a-entity checkoutmenu id="demo_how_to" visible="true"
+    >
+        <a-plane id="slide1"
+            visible="true"
+            position="0 1 -1.25"
+            height="1"
+            width="1"
+            color="white"
+            material="src:#cart1;"
+        ></a-plane> 
+        <a-plane id="slide2"
+            visible="true"
+            position="0 1 -1.25"
+            height="1"
+            width="1"
+            color="white"
+            material="src:#cart2;"
+        ></a-plane> 
+        <a-plane id="slide3"
+            visible="true"
+            position="0 1 -1.25"
+            height="1"
+            width="1"
+            color="white"
+            material="src:#cart3;"
+        ></a-plane> 
+        <a-plane id="slide4"
+            visible="true"
+            position="0 1 -1.25"
+            height="1"
+            width="1"
+            color="white"
+            material="src:#cart4;"
+        ></a-plane> 
+
+    </a-entity>
+
+
+    <!--<a-entity shopping id="cart"
+        >
+        <a-entity position="0 0.25 -0.75">
+            
+            <a-entity gui-item="" product="texture:moon.jpg; specs:livable; productName:Moon;" position="0 0 -0.25"
+            ></a-entity> 
+            <a-entity gui-item="" product="texture:earth.jpg; specs:livable; productName:Earth;" position="0 0 0.15"
+            ></a-entity> 
+            <a-entity gui-item="" product="texture:venus.jpg; specs:livable; productName:Venus;" position="0.075 0.2 0"
+            ></a-entity> 
+
+            <a-entity
+                geometry="primitive:box; height:0.02; width:0.02; depth:1;"
+                material="color:grey;"
+                position="0.25 0.25 0"
+            ></a-entity>
+            <a-entity
+                geometry="primitive:box; height:0.02; width:0.02; depth:1;"
+                material="color:grey;"
+                position="-0.25 0.25 0"
+            ></a-entity>
+            <a-entity
+                geometry="primitive:box; height:0.02; width:0.525; depth:0.02;"
+                material="color:grey;"
+                position="0 0.25 0.5"
+            ></a-entity>
+            <a-entity
+                geometry="primitive:box; height:0.02; width:0.525; depth:0.02;"
+                material="color:grey;"
+                position="0 0.25 -0.5"
+            ></a-entity>
+            <a-entity
+                geometry="primitive:box; height:0.02; width:0.5; depth:1;"
+                material="color:grey;"
+                position="0 -0.225 0"
+            ></a-entity>
+
+            <a-entity
+                geometry="primitive:box; height:0.5; width:0.02; depth:1;"
+                material="color:#09FFFF;"
+                position="0.25 0 0"
+            ></a-entity>
+            <a-entity
+                geometry="primitive:box; height:0.5; width:0.02; depth:1;"
+                material="color:#09FFFF;"
+                position="-0.25 0 0"
+            ></a-entity>
+
+            <a-entity
+                geometry="primitive:box; height:0.5; width:0.5; depth:0.02;"
+                material="color:#09FFFF;"
+                position="0 0 0.5"
+            ></a-entity>
+            <a-entity
+                geometry="primitive:box; height:0.5; width:0.5; depth:0.02;"
+                material="color:#09FFFF;"
+                position="0 0 -0.5"
+            ></a-entity>
+        </a-entity>
+    </a-entity>
+-->
+
+
+    </a-scene>
+</body>
+<script type="text/javascript">
+window.onload = function () {
+
+// Check if is IOS 13 when page loads.
+if ( window.DeviceMotionEvent && typeof window.DeviceMotionEvent.requestPermission === 'function' ){
+
+    // Everything here is just a lazy banner. You can do the banner your way.
+    const banner = document.createElement('div');
+    banner.innerHTML = '<div style="z-index: 1; position: absolute; width: 100%; background-color:#000; color: #fff"><p style="padding: 10px">Click here to enable DeviceMotion</p></div>';
+    banner.onclick = ClickRequestDeviceMotionEvent ;// You NEED to bind the function into a onClick event. An artificial 'onClick' will NOT work.
+    document.querySelector('body').appendChild(banner);
+}
+}
+
+function ClickRequestDeviceMotionEvent () {
+window.DeviceMotionEvent.requestPermission()
+  .then(response => {
+    if (response === 'granted') {
+      window.addEventListener('devicemotion',
+        () => { console.log('DeviceMotion permissions granted.') },
+        (e) => { throw e }
+    )} else {
+      console.log('DeviceMotion permissions not granted.');
+    }
+  })
+  .catch(e => {
+    console.error(e);
+  })
+}
+
+let current_slide_number = 0;
+let number_of_slides = 4;
+window.increment_slide = function(){
+    current_slide_number = (current_slide_number + 1) % number_of_slides;
+    window.show_slide(current_slide_number);
+}
+window.show_slide = function(slide_number){
+    // Hide all of the slides
+    for(let i = 1; i<=number_of_slides; i++){
+        document.getElementById("slide"+i).setAttribute('visible','false');
+    }
+    // Show the one slide
+    document.getElementById("slide"+slide_number).setAttribute('visible','true');
+}
+
+</script>
+</html>
